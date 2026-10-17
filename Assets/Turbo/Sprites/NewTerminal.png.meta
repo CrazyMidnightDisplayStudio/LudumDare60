@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: 8c60d1f7d7a1afd4b9de02746ff1e13e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7570744302003442390
+    second: NewTerminal_0
+  - first:
+      213: 5493678542319776389
+    second: NewTerminal_1
+  - first:
+      213: 9170187240427198693
+    second: NewTerminal_2
+  - first:
+      213: -4010177262052923385
+    second: NewTerminal_3
+  - first:
+      213: -2763285907740314349
+    second: NewTerminal_4
+  - first:
+      213: 3228706782967362175
+    second: NewTerminal_5
+  - first:
+      213: 4648241891850837129
+    second: NewTerminal_6
+  - first:
+      213: -8214230243744136847
+    second: NewTerminal_7
+  - first:
+      213: -6764032600576970949
+    second: NewTerminal_8
+  - first:
+      213: -1861118068308774851
+    second: NewTerminal_9
+  - first:
+      213: -5224023930771472973
+    second: NewTerminal_10
+  - first:
+      213: 433134694859363349
+    second: NewTerminal_11
+  - first:
+      213: -1004188211819279392
+    second: NewTerminal_12
+  - first:
+      213: 8377554042986915992
+    second: NewTerminal_13
+  - first:
+      213: 697929585545726610
+    second: NewTerminal_14
+  - first:
+      213: -7281837438499122730
+    second: NewTerminal_15
+  - first:
+      213: -3122803508796916073
+    second: NewTerminal_16
+  - first:
+      213: 1627699202853391182
+    second: NewTerminal_17
+  - first:
+      213: -423978691632131741
+    second: NewTerminal_18
+  - first:
+      213: 8755421192850294796
+    second: NewTerminal_19
+  - first:
+      213: 4665491885804853162
+    second: NewTerminal_20
+  - first:
+      213: -8032378286058787821
+    second: NewTerminal_21
+  - first:
+      213: 8449549180059981504
+    second: NewTerminal_22
+  - first:
+      213: 458198046506615897
+    second: NewTerminal_23
+  - first:
+      213: -1686370577859535754
+    second: NewTerminal_24
+  - first:
+      213: 4523387023779728359
+    second: NewTerminal_25
+  - first:
+      213: 7294351038045577278
+    second: NewTerminal_26
+  - first:
+      213: 6344744133995029426
+    second: NewTerminal_27
+  - first:
+      213: 5149171351675730155
+    second: NewTerminal_28
+  - first:
+      213: 4896550844676775632
+    second: NewTerminal_29
+  - first:
+      213: 2927956523715918918
+    second: NewTerminal_30
+  - first:
+      213: 8278084663805703915
+    second: NewTerminal_31
+  - first:
+      213: 1601571758557392319
+    second: NewTerminal_32
+  - first:
+      213: 8866328865866541256
+    second: NewTerminal_33
+  - first:
+      213: -674686335978420245
+    second: NewTerminal_34
+  - first:
+      213: -4722584772122493833
+    second: NewTerminal_35
+  - first:
+      213: -4346133500448839081
+    second: NewTerminal_36
+  - first:
+      213: 7825556534712229726
+    second: NewTerminal_37
+  - first:
+      213: 7483905995299138334
+    second: NewTerminal_38
+  - first:
+      213: 8343815931468134179
+    second: NewTerminal_39
+  - first:
+      213: -3353463144631373694
+    second: NewTerminal_40
+  - first:
+      213: 4896374504645287246
+    second: NewTerminal_41
+  - first:
+      213: 7232883498047034415
+    second: NewTerminal_42
+  - first:
+      213: -1767230878162619281
+    second: NewTerminal_43
+  - first:
+      213: 7530350139447008588
+    second: NewTerminal_44
+  - first:
+      213: 6044888432473314346
+    second: NewTerminal_45
+  - first:
+      213: 6277441569656405252
+    second: NewTerminal_46
+  - first:
+      213: -830994351574003169
+    second: NewTerminal_47
+  - first:
+      213: 6213622829397593084
+    second: NewTerminal_48
+  - first:
+      213: -2119169706917544320
+    second: NewTerminal_49
+  - first:
+      213: -1215099158598530852
+    second: NewTerminal_50
+  - first:
+      213: 711843506326436548
+    second: NewTerminal_51
+  - first:
+      213: 2436861365878859166
+    second: NewTerminal_52
+  - first:
+      213: -6352200424838518969
+    second: NewTerminal_53
+  - first:
+      213: 8673235212245938465
+    second: NewTerminal_54
+  - first:
+      213: -2608546752432200242
+    second: NewTerminal_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewTerminal_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 859
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d25a36c4dfa01960800000000000000
+      internalID: 7570744302003442390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 987
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582f72907877d3c40800000000000000
+      internalID: 5493678542319776389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 931
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e89b7d95bc034f70800000000000000
+      internalID: 9170187240427198693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 927
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708acf8e60df858c0800000000000000
+      internalID: -4010177262052923385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 927
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315bb408b16d6a9d0800000000000000
+      internalID: -2763285907740314349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 886
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72f9a276bbaecc20800000000000000
+      internalID: 3228706782967362175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 927
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cdbd98f5fd18040800000000000000
+      internalID: 4648241891850837129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 886
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1714c5a3d11310e80800000000000000
+      internalID: -8214230243744136847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 886
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fa279ef245122a0800000000000000
+      internalID: -6764032600576970949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_9
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 886
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30f46d3afafb26e0800000000000000
+      internalID: -1861118068308774851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 867
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdf93cb9e98087b0800000000000000
+      internalID: -5224023930771472973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 5
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5145dfac5bdc20600800000000000000
+      internalID: 433134694859363349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 831
+        width: 6
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb80ea44286012f0800000000000000
+      internalID: -1004188211819279392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 831
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8986fd2140d034470800000000000000
+      internalID: 8377554042986915992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 805
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a40b0a24b8fa900800000000000000
+      internalID: 697929585545726610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 831
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d19e163e67b1fa90800000000000000
+      internalID: -7281837438499122730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 801
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ef0da01c299a4d0800000000000000
+      internalID: -3122803508796916073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 801
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b43431dcfb69610800000000000000
+      internalID: 1627699202853391182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_18
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 831
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3619ee450a9bd1af0800000000000000
+      internalID: -423978691632131741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 831
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08c4cacf21818970800000000000000
+      internalID: 8755421192850294796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 793
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa79ddbb6282fb040800000000000000
+      internalID: 4665491885804853162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 806
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ca7e59182478090800000000000000
+      internalID: -8032378286058787821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 802
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c61bad2634d24570800000000000000
+      internalID: 8449549180059981504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 802
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9540ec612b8db5600800000000000000
+      internalID: 458198046506615897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 774
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c130be4eec898e0800000000000000
+      internalID: -1686370577859535754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 773
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb800e388c46ce30800000000000000
+      internalID: 4523387023779728359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_26
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 773
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3065b93f9dba3560800000000000000
+      internalID: 7294351038045577278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 735
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b364898c2f0d0850800000000000000
+      internalID: 6344744133995029426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 790
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8ff381018857740800000000000000
+      internalID: 5149171351675730155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 790
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de1999dc0b04f340800000000000000
+      internalID: 4896550844676775632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_30
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 780
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cffd102f032a820800000000000000
+      internalID: 2927956523715918918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 758
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be67fbe742aa1e270800000000000000
+      internalID: 8278084663805703915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 761
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd6c17670de93610800000000000000
+      internalID: 1601571758557392319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 756
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c864cfa0278b0b70800000000000000
+      internalID: 8866328865866541256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_34
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 755
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be742312a5803a6f0800000000000000
+      internalID: -674686335978420245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_35
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 755
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c38fbcb22067eb0800000000000000
+      internalID: -4722584772122493833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 737
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a625fab9e6fa3c0800000000000000
+      internalID: -4346133500448839081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 737
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f524de436f99c60800000000000000
+      internalID: 7825556534712229726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_38
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 746
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ba83ee9dc2cd760800000000000000
+      internalID: 7483905995299138334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 639
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327376ad1603bc370800000000000000
+      internalID: 8343815931468134179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_40
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 703
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280f1e0990b1671d0800000000000000
+      internalID: -3353463144631373694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_41
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 748
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d59ac7baa63f340800000000000000
+      internalID: 4896374504645287246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 751
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24d0e2583d506460800000000000000
+      internalID: 7232883498047034415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 737
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64f30721e88977e0800000000000000
+      internalID: -1767230878162619281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 738
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d5d08ed8d218860800000000000000
+      internalID: 7530350139447008588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_45
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 705
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24907c8002c3e350800000000000000
+      internalID: 6044888432473314346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 705
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40df3a929d3fd1750800000000000000
+      internalID: 6277441569656405252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_47
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 705
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1253104a07b774f0800000000000000
+      internalID: -830994351574003169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 715
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb408aca093b3650800000000000000
+      internalID: 6213622829397593084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_49
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 707
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e396021623792e0800000000000000
+      internalID: -2119169706917544320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 705
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8cbdcc0c9132fe0800000000000000
+      internalID: -1215099158598530852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_51
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 447
+        width: 207
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca7142c5e9f0e900800000000000000
+      internalID: 711843506326436548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 665
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e952510508871d120800000000000000
+      internalID: 2436861365878859166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_53
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 511
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7472a677e5378d7a0800000000000000
+      internalID: -6352200424838518969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121345709758d5870800000000000000
+      internalID: 8673235212245938465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTerminal_55
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5a741ac849ccbd0800000000000000
+      internalID: -2608546752432200242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewTerminal_0: 7570744302003442390
+      NewTerminal_1: 5493678542319776389
+      NewTerminal_10: -5224023930771472973
+      NewTerminal_11: 433134694859363349
+      NewTerminal_12: -1004188211819279392
+      NewTerminal_13: 8377554042986915992
+      NewTerminal_14: 697929585545726610
+      NewTerminal_15: -7281837438499122730
+      NewTerminal_16: -3122803508796916073
+      NewTerminal_17: 1627699202853391182
+      NewTerminal_18: -423978691632131741
+      NewTerminal_19: 8755421192850294796
+      NewTerminal_2: 9170187240427198693
+      NewTerminal_20: 4665491885804853162
+      NewTerminal_21: -8032378286058787821
+      NewTerminal_22: 8449549180059981504
+      NewTerminal_23: 458198046506615897
+      NewTerminal_24: -1686370577859535754
+      NewTerminal_25: 4523387023779728359
+      NewTerminal_26: 7294351038045577278
+      NewTerminal_27: 6344744133995029426
+      NewTerminal_28: 5149171351675730155
+      NewTerminal_29: 4896550844676775632
+      NewTerminal_3: -4010177262052923385
+      NewTerminal_30: 2927956523715918918
+      NewTerminal_31: 8278084663805703915
+      NewTerminal_32: 1601571758557392319
+      NewTerminal_33: 8866328865866541256
+      NewTerminal_34: -674686335978420245
+      NewTerminal_35: -4722584772122493833
+      NewTerminal_36: -4346133500448839081
+      NewTerminal_37: 7825556534712229726
+      NewTerminal_38: 7483905995299138334
+      NewTerminal_39: 8343815931468134179
+      NewTerminal_4: -2763285907740314349
+      NewTerminal_40: -3353463144631373694
+      NewTerminal_41: 4896374504645287246
+      NewTerminal_42: 7232883498047034415
+      NewTerminal_43: -1767230878162619281
+      NewTerminal_44: 7530350139447008588
+      NewTerminal_45: 6044888432473314346
+      NewTerminal_46: 6277441569656405252
+      NewTerminal_47: -830994351574003169
+      NewTerminal_48: 6213622829397593084
+      NewTerminal_49: -2119169706917544320
+      NewTerminal_5: 3228706782967362175
+      NewTerminal_50: -1215099158598530852
+      NewTerminal_51: 711843506326436548
+      NewTerminal_52: 2436861365878859166
+      NewTerminal_53: -6352200424838518969
+      NewTerminal_54: 8673235212245938465
+      NewTerminal_55: -2608546752432200242
+      NewTerminal_6: 4648241891850837129
+      NewTerminal_7: -8214230243744136847
+      NewTerminal_8: -6764032600576970949
+      NewTerminal_9: -1861118068308774851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

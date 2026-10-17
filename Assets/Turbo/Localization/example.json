@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "key": "ui.play",
+      "en": "Play",
+      "ru": "Играть"
+    },
+    {
+      "key": "coins.count",
+      "en": "You have {0}, hero!",
+      "ru": "У тебя {0}, герой!"
+    }
+  ]
+}

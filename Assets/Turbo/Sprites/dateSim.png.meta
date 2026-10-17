@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 159de2dd8c81fbe41a7923e9b8072f6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1838991534172656796
+    second: dateSim_0
+  - first:
+      213: -8273910851771530921
+    second: dateSim_1
+  - first:
+      213: -213064833871402445
+    second: dateSim_2
+  - first:
+      213: 2954912941651288175
+    second: dateSim_3
+  - first:
+      213: -671055261801132945
+    second: dateSim_4
+  - first:
+      213: -1992723142821534318
+    second: dateSim_5
+  - first:
+      213: 6293705423416844219
+    second: dateSim_6
+  - first:
+      213: 5812416834652057957
+    second: dateSim_7
+  - first:
+      213: 4112051158796982183
+    second: dateSim_8
+  - first:
+      213: -5807239051715105950
+    second: dateSim_9
+  - first:
+      213: 3292963978292996052
+    second: dateSim_10
+  - first:
+      213: -6300823191102428718
+    second: dateSim_11
+  - first:
+      213: 910181357603301682
+    second: dateSim_12
+  - first:
+      213: -944344628709492903
+    second: dateSim_13
+  - first:
+      213: 4319956862315812151
+    second: dateSim_14
+  - first:
+      213: -6724158856459406256
+    second: dateSim_15
+  - first:
+      213: -5099043406695885780
+    second: dateSim_16
+  - first:
+      213: -1249449273693407502
+    second: dateSim_17
+  - first:
+      213: -4517317053585387463
+    second: dateSim_18
+  - first:
+      213: -2232949073432582612
+    second: dateSim_19
+  - first:
+      213: -7903253450426406306
+    second: dateSim_20
+  - first:
+      213: -264493276107760803
+    second: dateSim_21
+  - first:
+      213: 2391717121814025509
+    second: dateSim_22
+  - first:
+      213: -3523955923318820776
+    second: dateSim_23
+  - first:
+      213: 7939295490440733296
+    second: dateSim_24
+  - first:
+      213: 3382674734722593749
+    second: dateSim_25
+  - first:
+      213: 5203311720739021188
+    second: dateSim_26
+  - first:
+      213: -5507302055367317991
+    second: dateSim_27
+  - first:
+      213: 4774978821967621244
+    second: dateSim_28
+  - first:
+      213: -611103479188063093
+    second: dateSim_29
+  - first:
+      213: -4631614608441468897
+    second: dateSim_30
+  - first:
+      213: -2323834797088546195
+    second: dateSim_31
+  - first:
+      213: -2694100343546249984
+    second: dateSim_32
+  - first:
+      213: 5053758428002449037
+    second: dateSim_33
+  - first:
+      213: 5708589738732941661
+    second: dateSim_34
+  - first:
+      213: -4655315992846987047
+    second: dateSim_35
+  - first:
+      213: -4355028556111935204
+    second: dateSim_36
+  - first:
+      213: 5347645274329432312
+    second: dateSim_37
+  - first:
+      213: -6907010431915077962
+    second: dateSim_38
+  - first:
+      213: 7321969039846168936
+    second: dateSim_39
+  - first:
+      213: 3261121026848425943
+    second: dateSim_40
+  - first:
+      213: 7065737310277688092
+    second: dateSim_41
+  - first:
+      213: 878159151167173382
+    second: dateSim_42
+  - first:
+      213: 8615483693281585036
+    second: dateSim_43
+  - first:
+      213: 1206645437558127238
+    second: dateSim_44
+  - first:
+      213: 6175835973405686712
+    second: dateSim_45
+  - first:
+      213: -8480299113019195692
+    second: dateSim_46
+  - first:
+      213: -2829377617998772245
+    second: dateSim_47
+  - first:
+      213: -6850651604578284644
+    second: dateSim_48
+  - first:
+      213: 8124138924435825987
+    second: dateSim_49
+  - first:
+      213: -716717568621996263
+    second: dateSim_50
+  - first:
+      213: -2105666538581023127
+    second: dateSim_51
+  - first:
+      213: -1689976534947817250
+    second: dateSim_52
+  - first:
+      213: -5174317712149571966
+    second: dateSim_53
+  - first:
+      213: 5247917765112140760
+    second: dateSim_54
+  - first:
+      213: 3158806068543508252
+    second: dateSim_55
+  - first:
+      213: 8643730252215083962
+    second: dateSim_56
+  - first:
+      213: 5704563831417717606
+    second: dateSim_57
+  - first:
+      213: 6679377437374736515
+    second: dateSim_58
+  - first:
+      213: -2368609122982640572
+    second: dateSim_59
+  - first:
+      213: -7957452847145902403
+    second: dateSim_60
+  - first:
+      213: 1973887489071109052
+    second: dateSim_61
+  - first:
+      213: -7141781319336253001
+    second: dateSim_62
+  - first:
+      213: -5462969471195179475
+    second: dateSim_63
+  - first:
+      213: 7444815304202174243
+    second: dateSim_64
+  - first:
+      213: -6633467087637644583
+    second: dateSim_65
+  - first:
+      213: -5167144575321815280
+    second: dateSim_66
+  - first:
+      213: -4364829182279007081
+    second: dateSim_67
+  - first:
+      213: -679233853316635373
+    second: dateSim_68
+  - first:
+      213: 6494506064956322752
+    second: dateSim_69
+  - first:
+      213: 1384698228839699951
+    second: dateSim_70
+  - first:
+      213: 742476418183699882
+    second: dateSim_71
+  - first:
+      213: 7645200166126601026
+    second: dateSim_72
+  - first:
+      213: 8679806883278074659
+    second: dateSim_73
+  - first:
+      213: 4817657930094975617
+    second: dateSim_74
+  - first:
+      213: 5749180281396496756
+    second: dateSim_75
+  - first:
+      213: -3809907511063067340
+    second: dateSim_76
+  - first:
+      213: -5501911862839422274
+    second: dateSim_77
+  - first:
+      213: -1534801147627262174
+    second: dateSim_78
+  - first:
+      213: 6962636879755209818
+    second: dateSim_79
+  - first:
+      213: -932030978021836727
+    second: dateSim_80
+  - first:
+      213: -4415322785662159649
+    second: dateSim_81
+  - first:
+      213: -2060016673951141882
+    second: dateSim_82
+  - first:
+      213: 2279330081175716188
+    second: dateSim_83
+  - first:
+      213: 5986909420807836935
+    second: dateSim_84
+  - first:
+      213: 756121092787884926
+    second: dateSim_85
+  - first:
+      213: 6905053717278257705
+    second: dateSim_86
+  - first:
+      213: 4514139317714305039
+    second: dateSim_87
+  - first:
+      213: 5159857853190516064
+    second: dateSim_88
+  - first:
+      213: -8415554929837228521
+    second: dateSim_89
+  - first:
+      213: 8288859488893445053
+    second: dateSim_90
+  - first:
+      213: -1679789179741293380
+    second: dateSim_91
+  - first:
+      213: -66814534965517096
+    second: dateSim_92
+  - first:
+      213: 983737127904066251
+    second: dateSim_93
+  - first:
+      213: 2224706879184422563
+    second: dateSim_94
+  - first:
+      213: -6148877658635209649
+    second: dateSim_95
+  - first:
+      213: -5388649729471529742
+    second: dateSim_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dateSim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94df439e09658910800000000000000
+      internalID: 1838991534172656796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75188e8dae92d2d80800000000000000
+      internalID: -8273910851771530921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 496
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aa7f699aa0b0df0800000000000000
+      internalID: -213064833871402445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 479
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6064552aa5f10920800000000000000
+      internalID: 2954912941651288175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ccfa77bceefa6f0800000000000000
+      internalID: -671055261801132945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 496
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2952c680cdc6854e0800000000000000
+      internalID: -1992723142821534318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 479
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfd5b3bcbbb75750800000000000000
+      internalID: 6293705423416844219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 471
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561bfebc05ad9a050800000000000000
+      internalID: 5812416834652057957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 471
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7d35a0eb0f01930800000000000000
+      internalID: 4112051158796982183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 471
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26baebcb9da886fa0800000000000000
+      internalID: -5807239051715105950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 471
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7af489a45f2bd20800000000000000
+      internalID: 3292963978292996052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 471
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9ebcdd0bafe88a0800000000000000
+      internalID: -6300823191102428718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 431
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239a0255f1d91ac00800000000000000
+      internalID: 910181357603301682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 377
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957f834409305e2f0800000000000000
+      internalID: -944344628709492903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735585fc0e193fb30800000000000000
+      internalID: 4319956862315812151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054b07b652dfea2a0800000000000000
+      internalID: -6724158856459406256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 447
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c241899990f8c39b0800000000000000
+      internalID: -5099043406695885780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f672a4618019aee0800000000000000
+      internalID: -1249449273693407502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 447
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9309a33d2144f41c0800000000000000
+      internalID: -4517317053585387463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 439
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26638cf5a8f201e0800000000000000
+      internalID: -2232949073432582612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 439
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a247d2cd0025290800000000000000
+      internalID: -7903253450426406306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 439
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b1e1844c4545cf0800000000000000
+      internalID: -264493276107760803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_22
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 439
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525d1f8ec06113120800000000000000
+      internalID: 2391717121814025509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 439
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850b27a22c4681fc0800000000000000
+      internalID: -3523955923318820776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072a4923f2b0e2e60800000000000000
+      internalID: 7939295490440733296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d334d1cfbca1fe20800000000000000
+      internalID: 3382674734722593749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 415
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481a6421170e53840800000000000000
+      internalID: 5203311720739021188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9166d07a5f12293b0800000000000000
+      internalID: -5507302055367317991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 415
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ca46d80f1244240800000000000000
+      internalID: 4774978821967621244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 407
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c7df99f9ce487f0800000000000000
+      internalID: -611103479188063093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 407
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18165f8d0339bfb0800000000000000
+      internalID: -4631614608441468897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 407
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6268d2709410cfd0800000000000000
+      internalID: -2323834797088546195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_32
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 407
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dfaa1f202ac9ad0800000000000000
+      internalID: -2694100343546249984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_33
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 407
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86f8b9a38e822640800000000000000
+      internalID: 5053758428002449037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51fd993f1cf83f40800000000000000
+      internalID: 5708589738732941661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 401
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d01929f4cef46fb0800000000000000
+      internalID: -4655315992846987047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 401
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1904462a94df83c0800000000000000
+      internalID: -4355028556111935204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 401
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0c3314b07a63a40800000000000000
+      internalID: 5347645274329432312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 401
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bec8c96b9e5520a0800000000000000
+      internalID: -6907010431915077962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 375
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869507c5c0cdc9560800000000000000
+      internalID: 7321969039846168936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_40
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 375
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d78bd6bb44d14d20800000000000000
+      internalID: 3261121026848425943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_41
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 375
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b5357d5aa8e0260800000000000000
+      internalID: 7065737310277688092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 375
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603f3956819df2c00800000000000000
+      internalID: 878159151167173382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 375
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c872832b5c8509770800000000000000
+      internalID: 8615483693281585036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 375
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a7f73e1addeb010800000000000000
+      internalID: 1206645437558127238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 302
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbbce9c81af4b550800000000000000
+      internalID: 6175835973405686712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_46
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 302
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de3e6323ecef4a80800000000000000
+      internalID: -8480299113019195692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 301
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be70ebf0c080cb8d0800000000000000
+      internalID: -2829377617998772245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 300
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bc62579a89de0a0800000000000000
+      internalID: -6850651604578284644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_49
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 300
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345ebe8ee4dbeb070800000000000000
+      internalID: 8124138924435825987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_50
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 232
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917110e2b25bd06f0800000000000000
+      internalID: -716717568621996263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 303
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966a370807b27c2e0800000000000000
+      internalID: -2105666538581023127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_52
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 242
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed890bb9b4ffb88e0800000000000000
+      internalID: -1689976534947817250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_53
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 234
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286105c94712138b0800000000000000
+      internalID: -5174317712149571966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_54
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 234
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d398f7176954d840800000000000000
+      internalID: 5247917765112140760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 233
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f42ed126556db20800000000000000
+      internalID: 3158806068543508252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_56
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 234
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3e3913ed2b4f770800000000000000
+      internalID: 8643730252215083962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_57
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 234
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663c132a49eaa2f40800000000000000
+      internalID: 5704563831417717606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388ea73f36ae1bc50800000000000000
+      internalID: 6679377437374736515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_59
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 192
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444ced45d82012fd0800000000000000
+      internalID: -2368609122982640572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_60
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 192
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe92f0cbc2719190800000000000000
+      internalID: -7957452847145902403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_61
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 198
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3dba49638a46b10800000000000000
+      internalID: 1973887489071109052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_62
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 192
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b921759abb43ec90800000000000000
+      internalID: -7141781319336253001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_63
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 192
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d269b92c532af24b0800000000000000
+      internalID: -5462969471195179475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fbc59231c415760800000000000000
+      internalID: 7444815304202174243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_65
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 192
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dafc1454d031f3a0800000000000000
+      internalID: -6633467087637644583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_66
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0174bdca26d9a48b0800000000000000
+      internalID: -5167144575321815280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794400d0cf20d63c0800000000000000
+      internalID: -4364829182279007081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_68
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 189
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31564adb860e296f0800000000000000
+      internalID: -679233853316635373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_69
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 191
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c377515bde112a50800000000000000
+      internalID: 6494506064956322752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_70
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 191
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe55a13e3bf673310800000000000000
+      internalID: 1384698228839699951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_71
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad91f75e5ecd4a00800000000000000
+      internalID: 742476418183699882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_72
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243cbba8b05391a60800000000000000
+      internalID: 7645200166126601026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_73
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 209
+        width: 132
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323b7cc6f5ed47870800000000000000
+      internalID: 8679806883278074659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_74
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 192
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a97a4cc52cbd240800000000000000
+      internalID: 4817657930094975617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_75
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 196
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4798156610139cf40800000000000000
+      internalID: 5749180281396496756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_76
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 160
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4354effed4d702bc0800000000000000
+      internalID: -3809907511063067340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_77
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 166
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2d2f5af4845a3b0800000000000000
+      internalID: -5501911862839422274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_78
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 160
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa0daec7a43bae0800000000000000
+      internalID: -1534801147627262174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_79
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 166
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ce7dd3a5140a060800000000000000
+      internalID: 6962636879755209818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_80
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 160
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948395b73c2c013f0800000000000000
+      internalID: -932030978021836727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_81
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 166
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43befd15f99b2c0800000000000000
+      internalID: -4415322785662159649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_82
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 168
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600b2cddfb95963e0800000000000000
+      internalID: -2060016673951141882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_83
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 154
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c514756e1aec1af10800000000000000
+      internalID: 2279330081175716188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_84
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705d0b1f566c51350800000000000000
+      internalID: 5986909420807836935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_85
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e735dc6b0284e7a00800000000000000
+      internalID: 756121092787884926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_86
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 172
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9227c5575cda3df50800000000000000
+      internalID: 6905053717278257705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_87
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 172
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f004cf2eac175ae30800000000000000
+      internalID: 4514139317714305039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_88
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 160
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d2eee116f7b9740800000000000000
+      internalID: 5159857853190516064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_89
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 160
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eb34bf061f53b80800000000000000
+      internalID: -8415554929837228521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_90
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 149
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3ae94f9c1f70370800000000000000
+      internalID: 8288859488893445053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_91
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 65
+        width: 171
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4b9f314a030b8e0800000000000000
+      internalID: -1679789179741293380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 31
+        width: 146
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d42c81d880a21ff0800000000000000
+      internalID: -66814534965517096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_93
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 15
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcab51da4bfe6ad00800000000000000
+      internalID: 983737127904066251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_94
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6c72f9e1fbfde10800000000000000
+      internalID: 2224706879184422563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_95
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 16
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4476bdf85ccaaaa0800000000000000
+      internalID: -6148877658635209649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dateSim_96
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 14
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc38df0f9ba735b0800000000000000
+      internalID: -5388649729471529742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dateSim_0: 1838991534172656796
+      dateSim_1: -8273910851771530921
+      dateSim_10: 3292963978292996052
+      dateSim_11: -6300823191102428718
+      dateSim_12: 910181357603301682
+      dateSim_13: -944344628709492903
+      dateSim_14: 4319956862315812151
+      dateSim_15: -6724158856459406256
+      dateSim_16: -5099043406695885780
+      dateSim_17: -1249449273693407502
+      dateSim_18: -4517317053585387463
+      dateSim_19: -2232949073432582612
+      dateSim_2: -213064833871402445
+      dateSim_20: -7903253450426406306
+      dateSim_21: -264493276107760803
+      dateSim_22: 2391717121814025509
+      dateSim_23: -3523955923318820776
+      dateSim_24: 7939295490440733296
+      dateSim_25: 3382674734722593749
+      dateSim_26: 5203311720739021188
+      dateSim_27: -5507302055367317991
+      dateSim_28: 4774978821967621244
+      dateSim_29: -611103479188063093
+      dateSim_3: 2954912941651288175
+      dateSim_30: -4631614608441468897
+      dateSim_31: -2323834797088546195
+      dateSim_32: -2694100343546249984
+      dateSim_33: 5053758428002449037
+      dateSim_34: 5708589738732941661
+      dateSim_35: -4655315992846987047
+      dateSim_36: -4355028556111935204
+      dateSim_37: 5347645274329432312
+      dateSim_38: -6907010431915077962
+      dateSim_39: 7321969039846168936
+      dateSim_4: -671055261801132945
+      dateSim_40: 3261121026848425943
+      dateSim_41: 7065737310277688092
+      dateSim_42: 878159151167173382
+      dateSim_43: 8615483693281585036
+      dateSim_44: 1206645437558127238
+      dateSim_45: 6175835973405686712
+      dateSim_46: -8480299113019195692
+      dateSim_47: -2829377617998772245
+      dateSim_48: -6850651604578284644
+      dateSim_49: 8124138924435825987
+      dateSim_5: -1992723142821534318
+      dateSim_50: -716717568621996263
+      dateSim_51: -2105666538581023127
+      dateSim_52: -1689976534947817250
+      dateSim_53: -5174317712149571966
+      dateSim_54: 5247917765112140760
+      dateSim_55: 3158806068543508252
+      dateSim_56: 8643730252215083962
+      dateSim_57: 5704563831417717606
+      dateSim_58: 6679377437374736515
+      dateSim_59: -2368609122982640572
+      dateSim_6: 6293705423416844219
+      dateSim_60: -7957452847145902403
+      dateSim_61: 1973887489071109052
+      dateSim_62: -7141781319336253001
+      dateSim_63: -5462969471195179475
+      dateSim_64: 7444815304202174243
+      dateSim_65: -6633467087637644583
+      dateSim_66: -5167144575321815280
+      dateSim_67: -4364829182279007081
+      dateSim_68: -679233853316635373
+      dateSim_69: 6494506064956322752
+      dateSim_7: 5812416834652057957
+      dateSim_70: 1384698228839699951
+      dateSim_71: 742476418183699882
+      dateSim_72: 7645200166126601026
+      dateSim_73: 8679806883278074659
+      dateSim_74: 4817657930094975617
+      dateSim_75: 5749180281396496756
+      dateSim_76: -3809907511063067340
+      dateSim_77: -5501911862839422274
+      dateSim_78: -1534801147627262174
+      dateSim_79: 6962636879755209818
+      dateSim_8: 4112051158796982183
+      dateSim_80: -932030978021836727
+      dateSim_81: -4415322785662159649
+      dateSim_82: -2060016673951141882
+      dateSim_83: 2279330081175716188
+      dateSim_84: 5986909420807836935
+      dateSim_85: 756121092787884926
+      dateSim_86: 6905053717278257705
+      dateSim_87: 4514139317714305039
+      dateSim_88: 5159857853190516064
+      dateSim_89: -8415554929837228521
+      dateSim_9: -5807239051715105950
+      dateSim_90: 8288859488893445053
+      dateSim_91: -1679789179741293380
+      dateSim_92: -66814534965517096
+      dateSim_93: 983737127904066251
+      dateSim_94: 2224706879184422563
+      dateSim_95: -6148877658635209649
+      dateSim_96: -5388649729471529742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

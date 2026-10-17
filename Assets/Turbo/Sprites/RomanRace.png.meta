@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: bc3d5f78a431a074c8cd9dff238630cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2644999606255275360
+    second: RomanRace_0
+  - first:
+      213: 2636858817017970751
+    second: RomanRace_1
+  - first:
+      213: -2331737921683146046
+    second: RomanRace_2
+  - first:
+      213: -7175121809172554320
+    second: RomanRace_3
+  - first:
+      213: 3338090312882413924
+    second: RomanRace_4
+  - first:
+      213: 1641950178452898421
+    second: RomanRace_5
+  - first:
+      213: -1787987580801913901
+    second: RomanRace_6
+  - first:
+      213: 3626222251628575954
+    second: RomanRace_7
+  - first:
+      213: -1648602004076094438
+    second: RomanRace_8
+  - first:
+      213: 154258668214622348
+    second: RomanRace_9
+  - first:
+      213: 7546286733489553889
+    second: RomanRace_10
+  - first:
+      213: -1153415521857418686
+    second: RomanRace_11
+  - first:
+      213: 1148947105054526655
+    second: RomanRace_12
+  - first:
+      213: -1536971077547230858
+    second: RomanRace_13
+  - first:
+      213: -7212604004878455484
+    second: RomanRace_14
+  - first:
+      213: 4738485936921854016
+    second: RomanRace_15
+  - first:
+      213: -9153861585961278194
+    second: RomanRace_16
+  - first:
+      213: -5913474990319276864
+    second: RomanRace_17
+  - first:
+      213: -1756438021526850875
+    second: RomanRace_18
+  - first:
+      213: -5768311237021010373
+    second: RomanRace_19
+  - first:
+      213: -261228967510259172
+    second: RomanRace_20
+  - first:
+      213: 5130264186882389541
+    second: RomanRace_21
+  - first:
+      213: -710119352657135413
+    second: RomanRace_22
+  - first:
+      213: 3488782848842356906
+    second: RomanRace_23
+  - first:
+      213: 4832388678975820107
+    second: RomanRace_24
+  - first:
+      213: 6572194036334916523
+    second: RomanRace_25
+  - first:
+      213: 9152543327272142515
+    second: RomanRace_26
+  - first:
+      213: -2778539618512254827
+    second: RomanRace_27
+  - first:
+      213: 7672889172589397623
+    second: RomanRace_28
+  - first:
+      213: -1198067426808479013
+    second: RomanRace_29
+  - first:
+      213: 3905903039877375602
+    second: RomanRace_30
+  - first:
+      213: 5861199500504004728
+    second: RomanRace_31
+  - first:
+      213: -6503125296907681374
+    second: RomanRace_32
+  - first:
+      213: -144107323291311012
+    second: RomanRace_33
+  - first:
+      213: 3125855419374233726
+    second: RomanRace_34
+  - first:
+      213: -4101627548289012614
+    second: RomanRace_35
+  - first:
+      213: -2641683472775471815
+    second: RomanRace_36
+  - first:
+      213: -1116375216924466179
+    second: RomanRace_37
+  - first:
+      213: -1664003864932915451
+    second: RomanRace_38
+  - first:
+      213: 8558786225835838422
+    second: RomanRace_39
+  - first:
+      213: 7492598466222267622
+    second: RomanRace_40
+  - first:
+      213: -6283873452224973856
+    second: RomanRace_41
+  - first:
+      213: -5598462574995246695
+    second: RomanRace_42
+  - first:
+      213: -5703403393262029668
+    second: RomanRace_43
+  - first:
+      213: 2390557149613429039
+    second: RomanRace_44
+  - first:
+      213: -526074554354851068
+    second: RomanRace_45
+  - first:
+      213: -118976926672693708
+    second: RomanRace_46
+  - first:
+      213: 6958867008916542435
+    second: RomanRace_47
+  - first:
+      213: 1882329645304339408
+    second: RomanRace_48
+  - first:
+      213: -1478528963984549860
+    second: RomanRace_49
+  - first:
+      213: 4489633305098884619
+    second: RomanRace_50
+  - first:
+      213: -3846415413873217389
+    second: RomanRace_51
+  - first:
+      213: 3529102210321869428
+    second: RomanRace_52
+  - first:
+      213: 4979262015139031827
+    second: RomanRace_53
+  - first:
+      213: 5470070788416429395
+    second: RomanRace_54
+  - first:
+      213: 7593766504798969081
+    second: RomanRace_55
+  - first:
+      213: -3704586417384575995
+    second: RomanRace_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RomanRace_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 478
+        width: 150
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dc4e9c02de4b420800000000000000
+      internalID: 2644999606255275360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 654
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3086379f11089420800000000000000
+      internalID: 2636858817017970751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 652
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab4ccd6b004afd0800000000000000
+      internalID: -2331737921683146046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 656
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd9c10eab8dc6c90800000000000000
+      internalID: -7175121809172554320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 632
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461678f1477435e20800000000000000
+      internalID: 3338090312882413924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 610
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5720395ecf069c610800000000000000
+      internalID: 1641950178452898421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 615
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbed77b4cacf27e0800000000000000
+      internalID: -1787987580801913901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 608
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc30f0ecede25230800000000000000
+      internalID: 3626222251628575954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 608
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c1c03463dfe19e0800000000000000
+      internalID: -1648602004076094438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 570
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8815720179042200800000000000000
+      internalID: 154258668214622348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 596
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e143ea5dcbc9b860800000000000000
+      internalID: 7546286733489553889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 591
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a4445a1be3effe0800000000000000
+      internalID: -1153415521857418686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 596
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc0d7efd41e1ff00800000000000000
+      internalID: 1148947105054526655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 601
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6797fbcb2f49baae0800000000000000
+      internalID: -1536971077547230858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 601
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44de8af1fdea7eb90800000000000000
+      internalID: -7212604004878455484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 596
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0404963aadb72c140800000000000000
+      internalID: 4738485936921854016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 591
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e052fa50363f6f080800000000000000
+      internalID: -9153861585961278194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 579
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccecd5c3dd1feda0800000000000000
+      internalID: -5913474990319276864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_18
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 585
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2f6e8ece0ef97e0800000000000000
+      internalID: -1756438021526850875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 579
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36f773ed77d2ffa0800000000000000
+      internalID: -5768311237021010373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 579
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a428a53adef5cf0800000000000000
+      internalID: -261228967510259172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 585
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526780fb81c523740800000000000000
+      internalID: 5130264186882389541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 573
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8bdbc06362526f0800000000000000
+      internalID: -710119352657135413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 574
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa859b34485aa6030800000000000000
+      internalID: 3488782848842356906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 568
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4119f286e7101340800000000000000
+      internalID: 4832388678975820107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 574
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3fea2b7af153b50800000000000000
+      internalID: 6572194036334916523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_26
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 528
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b68d65f9ad540f70800000000000000
+      internalID: 9152543327272142515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 378
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5984a3430f4a079d0800000000000000
+      internalID: -2778539618512254827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 378
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776c12dbc049b7a60800000000000000
+      internalID: 7672889172589397623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_29
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 377
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd24d10e50c9f5fe0800000000000000
+      internalID: -1198067426808479013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 327
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2766203de1e843630800000000000000
+      internalID: 3905903039877375602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 310
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878fc3944e9275150800000000000000
+      internalID: 5861199500504004728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 321
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a106fb5ff140c5a0800000000000000
+      internalID: -6503125296907681374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 326
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5460b92727000ef0800000000000000
+      internalID: -144107323291311012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78e70341f4416b20800000000000000
+      internalID: 3125855419374233726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 320
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ce647e9771417c0800000000000000
+      internalID: -4101627548289012614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 324
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d9234b0ead65bd0800000000000000
+      internalID: -2641683472775471815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 307
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3ea2fa7a6d180f0800000000000000
+      internalID: -1116375216924466179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_38
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 324
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507ebc51d4548e8e0800000000000000
+      internalID: -1664003864932915451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_39
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 307
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db837bd9bae6c670800000000000000
+      internalID: 8558786225835838422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_40
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 324
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec90d78b9e0bf760800000000000000
+      internalID: 7492598466222267622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_41
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 307
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e37f9a73623bc8a0800000000000000
+      internalID: -6283873452224973856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_42
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 318
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f61133f34e42b0800000000000000
+      internalID: -5598462574995246695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_43
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 318
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94fbdde4d079d0b0800000000000000
+      internalID: -5703403393262029668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_44
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 318
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f219af5df07fc2120800000000000000
+      internalID: 2390557149613429039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 279
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403ae46eaf103b8f0800000000000000
+      internalID: -526074554354851068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_46
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 262
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436d4359d1f495ef0800000000000000
+      internalID: -118976926672693708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_47
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 273
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3d7a9ccacd29060800000000000000
+      internalID: 6958867008916542435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_48
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 278
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db5d82e6d06f1a10800000000000000
+      internalID: 1882329645304339408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_49
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 261
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c181397adb53b7be0800000000000000
+      internalID: -1478528963984549860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 272
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b069e2234b16e4e30800000000000000
+      internalID: 4489633305098884619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_51
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 276
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390ff7d6f89ce9ac0800000000000000
+      internalID: -3846415413873217389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_52
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 259
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ae74623c3e9f030800000000000000
+      internalID: 3529102210321869428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_53
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 276
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b25f7eb64e91540800000000000000
+      internalID: 4979262015139031827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_54
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 259
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d5dcf766899eb40800000000000000
+      internalID: 5470070788416429395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_55
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 270
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc5dc1176a726960800000000000000
+      internalID: 7593766504798969081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RomanRace_56
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 270
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c2e08f74aa69cc0800000000000000
+      internalID: -3704586417384575995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RomanRace_0: 2644999606255275360
+      RomanRace_1: 2636858817017970751
+      RomanRace_10: 7546286733489553889
+      RomanRace_11: -1153415521857418686
+      RomanRace_12: 1148947105054526655
+      RomanRace_13: -1536971077547230858
+      RomanRace_14: -7212604004878455484
+      RomanRace_15: 4738485936921854016
+      RomanRace_16: -9153861585961278194
+      RomanRace_17: -5913474990319276864
+      RomanRace_18: -1756438021526850875
+      RomanRace_19: -5768311237021010373
+      RomanRace_2: -2331737921683146046
+      RomanRace_20: -261228967510259172
+      RomanRace_21: 5130264186882389541
+      RomanRace_22: -710119352657135413
+      RomanRace_23: 3488782848842356906
+      RomanRace_24: 4832388678975820107
+      RomanRace_25: 6572194036334916523
+      RomanRace_26: 9152543327272142515
+      RomanRace_27: -2778539618512254827
+      RomanRace_28: 7672889172589397623
+      RomanRace_29: -1198067426808479013
+      RomanRace_3: -7175121809172554320
+      RomanRace_30: 3905903039877375602
+      RomanRace_31: 5861199500504004728
+      RomanRace_32: -6503125296907681374
+      RomanRace_33: -144107323291311012
+      RomanRace_34: 3125855419374233726
+      RomanRace_35: -4101627548289012614
+      RomanRace_36: -2641683472775471815
+      RomanRace_37: -1116375216924466179
+      RomanRace_38: -1664003864932915451
+      RomanRace_39: 8558786225835838422
+      RomanRace_4: 3338090312882413924
+      RomanRace_40: 7492598466222267622
+      RomanRace_41: -6283873452224973856
+      RomanRace_42: -5598462574995246695
+      RomanRace_43: -5703403393262029668
+      RomanRace_44: 2390557149613429039
+      RomanRace_45: -526074554354851068
+      RomanRace_46: -118976926672693708
+      RomanRace_47: 6958867008916542435
+      RomanRace_48: 1882329645304339408
+      RomanRace_49: -1478528963984549860
+      RomanRace_5: 1641950178452898421
+      RomanRace_50: 4489633305098884619
+      RomanRace_51: -3846415413873217389
+      RomanRace_52: 3529102210321869428
+      RomanRace_53: 4979262015139031827
+      RomanRace_54: 5470070788416429395
+      RomanRace_55: 7593766504798969081
+      RomanRace_56: -3704586417384575995
+      RomanRace_6: -1787987580801913901
+      RomanRace_7: 3626222251628575954
+      RomanRace_8: -1648602004076094438
+      RomanRace_9: 154258668214622348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
