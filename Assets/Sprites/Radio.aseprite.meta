@@ -129,7 +129,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Radio
     originalName: 
-    pivot: {x: 1.0616438, y: -0.070769235}
+    pivot: {x: 0.7294118, y: -0.06845238}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,8 +137,8 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 292
-      height: 325
+      width: 425
+      height: 336
     spriteID: de2bc2f91723ca34bb847bae34e7ec5a
     spriteBone: []
     spriteOutline: []
@@ -169,8 +169,8 @@ ScriptedImporter:
       cellRect:
         x: 10
         y: 23
-        width: 292
-        height: 325
+        width: 425
+        height: 336
       spriteId: de2bc2f91723ca34bb847bae34e7ec5a
     linkedCells: []
     tileCells: []
