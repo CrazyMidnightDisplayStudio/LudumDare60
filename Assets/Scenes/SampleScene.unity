@@ -11567,6 +11567,7 @@ GameObject:
   - component: {fileID: 1444339479}
   - component: {fileID: 1444339478}
   - component: {fileID: 1444339480}
+  - component: {fileID: 1444339481}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -11618,6 +11619,29 @@ MonoBehaviour:
   backspaceButton: {fileID: 1880735532}
   enterButton: {fileID: 107765244}
   interpreter: {fileID: 1444339478}
+--- !u!114 &1444339481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444339477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d04267d0ffd7046a69c71b422c0d2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Turbo.AudioMixer.AudioVolumeManager
+  mixer: {fileID: 24100000, guid: 81014f9e651277b42b5b9333b9f8b8a4, type: 2}
+  masterParameter: Master
+  sfxParameter: SFX
+  musicParameter: Music
+  defaultMasterVolume: 1
+  defaultSfxVolume: 1
+  defaultMusicVolume: 1
+  minDb: -80
+  keyboardStep: 0.1
+  volumeUpAction: {fileID: 0}
+  volumeDownAction: {fileID: 0}
 --- !u!1 &1454997965
 GameObject:
   m_ObjectHideFlags: 0
@@ -20178,6 +20202,22 @@ PrefabInstance:
     - target: {fileID: 4468358644154722777, guid: 37760b7d6a5d16c40b6df3c24178199b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994162713014575890, guid: 37760b7d6a5d16c40b6df3c24178199b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994162713014575890, guid: 37760b7d6a5d16c40b6df3c24178199b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1444339481}
+    - target: {fileID: 4994162713014575890, guid: 37760b7d6a5d16c40b6df3c24178199b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMasterVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994162713014575890, guid: 37760b7d6a5d16c40b6df3c24178199b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Turbo.AudioMixer.AudioVolumeManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5372266391757551130, guid: 37760b7d6a5d16c40b6df3c24178199b, type: 3}
       propertyPath: m_AnchorMax.y
