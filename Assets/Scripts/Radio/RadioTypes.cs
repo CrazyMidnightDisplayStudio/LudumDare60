@@ -20,5 +20,6 @@
         NINE,
         PLUS,
         MINUS,
+        NONE,
     }
 }
