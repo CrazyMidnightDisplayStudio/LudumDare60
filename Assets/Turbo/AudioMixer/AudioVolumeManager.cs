@@ -22,19 +22,22 @@ namespace Turbo.AudioMixer
         [SerializeField] private float defaultSfxVolume = 1f;
         [SerializeField] private float defaultMusicVolume = 1f;
         [SerializeField] private float minDb = -80f;
-        [SerializeField] private float keyboardStep = 0.1f;
+        [SerializeField, Min(0f), InspectorName("Volume Step")] private float keyboardStep = 0.1f;
         [SerializeField] private InputActionReference volumeUpAction;
         [SerializeField] private InputActionReference volumeDownAction;
 
         private float _masterVolume = 1f;
         private float _sfxVolume = 1f;
         private float _musicVolume = 1f;
+        private float _lastAudibleMasterVolume = 1f;
+        private bool _masterMuted;
 
         public static AudioVolumeManager Instance { get; private set; }
 
         public float MasterVolume => _masterVolume;
         public float SfxVolume => _sfxVolume;
         public float MusicVolume => _musicVolume;
+        public bool IsMasterMuted => _masterMuted || _masterVolume <= 0f;
 
         private void Awake()
         {
@@ -81,7 +84,41 @@ namespace Turbo.AudioMixer
         public void SetMasterVolume(float value)
         {
             _masterVolume = Mathf.Clamp01(value);
+            _masterMuted = false;
+
+            if (_masterVolume > 0f)
+            {
+                _lastAudibleMasterVolume = _masterVolume;
+            }
+
             ApplyVolume(masterParameter, _masterVolume);
+        }
+
+        public void IncreaseMasterVolume()
+        {
+            SetMasterVolume(_masterVolume + keyboardStep);
+        }
+
+        public void DecreaseMasterVolume()
+        {
+            SetMasterVolume(_masterVolume - keyboardStep);
+        }
+
+        public void ToggleMasterMute()
+        {
+            SetMasterMuted(!IsMasterMuted);
+        }
+
+        public void SetMasterMuted(bool muted)
+        {
+            _masterMuted = muted;
+
+            if (!muted && _masterVolume <= 0f)
+            {
+                _masterVolume = _lastAudibleMasterVolume;
+            }
+
+            ApplyVolume(masterParameter, muted ? 0f : _masterVolume);
         }
 
         public void SetSfxVolume(float value)
@@ -127,21 +164,39 @@ namespace Turbo.AudioMixer
 
         private void OnVolumeUpPerformed(InputAction.CallbackContext context)
         {
-            SetMasterVolume(_masterVolume + keyboardStep);
+            IncreaseMasterVolume();
         }
 
         private void OnVolumeDownPerformed(InputAction.CallbackContext context)
         {
-            SetMasterVolume(_masterVolume - keyboardStep);
+            DecreaseMasterVolume();
         }
 
         private void ApplyVolume(string parameterName, float linearValue)
         {
+            if (mixer == null)
+            {
+                if (parameterName == masterParameter)
+                {
+                    AudioListener.volume = linearValue;
+                }
+
+                return;
+            }
+
             float db = linearValue <= 0f
                 ? minDb
                 : Mathf.Clamp(Mathf.Log10(linearValue) * 20f, minDb, MaxDb);
 
             mixer.SetFloat(parameterName, db);
+        }
+
+        private void OnDestroy()
+        {
+            if (Instance == this)
+            {
+                Instance = null;
+            }
         }
 
         private void OnValidate()
