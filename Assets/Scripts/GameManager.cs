@@ -13,11 +13,13 @@ public class GameManager : MonoBehaviour, IInterpreter
         [SerializeField] private string password;
         [SerializeField] private GameObject led;
         [SerializeField, TextArea(2, 6)] private string correctResponse;
+        [SerializeField, TextArea(2, 6)] private string wrongResponse;
         [SerializeField] private RadioConversation[] radioMonologues = Array.Empty<RadioConversation>();
 
         public string Password => password;
         public GameObject Led => led;
         public string CorrectResponse => correctResponse;
+        public string WrongResponse => wrongResponse;
         public IReadOnlyList<RadioConversation> RadioMonologues => radioMonologues ?? Array.Empty<RadioConversation>();
     }
 
@@ -49,7 +51,6 @@ public class GameManager : MonoBehaviour, IInterpreter
     [SerializeField] private bool ignoreCommandCase = true;
 
     [Header("Terminal responses")]
-    [SerializeField] private string wrongPasswordResponse = "Incorrect password or unavailable command.";
     [SerializeField, TextArea(2, 6)] private string finalText = "All passwords accepted. Mission complete.";
 
     [Header("Success signal")]
@@ -150,7 +151,9 @@ public class GameManager : MonoBehaviour, IInterpreter
             if (TryInterpretCommand(input, output))
                 return output;
 
-            output.Add(wrongPasswordResponse);
+            output.Add(string.IsNullOrWhiteSpace(puzzle.WrongResponse)
+                ? $"Password {_solvedPuzzleCount + 1} rejected."
+                : puzzle.WrongResponse);
             return output;
         }
 

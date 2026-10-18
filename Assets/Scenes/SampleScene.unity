@@ -11867,6 +11867,7 @@ MonoBehaviour:
   - password: 6775
     led: {fileID: 473086007}
     correctResponse: First password accepted. Four remain.
+    wrongResponse: First password rejected. Try again.
     radioMonologues:
     - title: Briefing
       lines:
@@ -11878,6 +11879,7 @@ MonoBehaviour:
   - password: 1111
     led: {fileID: 1159357743}
     correctResponse: Second password accepted. Three remain.
+    wrongResponse: Second password rejected. Try again.
     radioMonologues:
     - title: Briefing
       lines:
@@ -11889,6 +11891,7 @@ MonoBehaviour:
   - password: 2222
     led: {fileID: 1893863357}
     correctResponse: Third password accepted. Two remain.
+    wrongResponse: Third password rejected. Try again.
     radioMonologues:
     - title: Briefing
       lines:
@@ -11900,6 +11903,7 @@ MonoBehaviour:
   - password: 3333
     led: {fileID: 552777774}
     correctResponse: Fourth password accepted. One remains.
+    wrongResponse: Fourth password rejected. Try again.
     radioMonologues:
     - title: Briefing
       lines:
@@ -11911,6 +11915,7 @@ MonoBehaviour:
   - password: 4444
     led: {fileID: 1460784143}
     correctResponse: Final password accepted.
+    wrongResponse: Final password rejected. Try again.
     radioMonologues:
     - title: Briefing
       lines:
@@ -11930,7 +11935,6 @@ MonoBehaviour:
     minSolvedPasswords: 1
     maxSolvedPasswords: 1
   ignoreCommandCase: 1
-  wrongPasswordResponse: Wrong Password
   finalText: All passwords are correct!
   signalSource: {fileID: 1444339482}
   correctPasswordSound: {fileID: 8300000, guid: 11cacf0d18dfa8648a9c5f61aedb6405, type: 3}
