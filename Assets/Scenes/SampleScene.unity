@@ -11866,26 +11866,70 @@ MonoBehaviour:
   puzzles:
   - password: 6775
     led: {fileID: 473086007}
-    radioMonologue:
-    - Look at phone
+    correctResponse: First password accepted. Four remain.
+    radioMonologues:
+    - title: Briefing
+      lines:
+      - Look at phone
+    - title: Follow-up
+      lines:
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
   - password: 1111
     led: {fileID: 1159357743}
-    radioMonologue:
-    - 1111
+    correctResponse: Second password accepted. Three remain.
+    radioMonologues:
+    - title: Briefing
+      lines:
+      - 1111
+    - title: Follow-up
+      lines:
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
   - password: 2222
     led: {fileID: 1893863357}
-    radioMonologue:
-    - 2222
+    correctResponse: Third password accepted. Two remain.
+    radioMonologues:
+    - title: Briefing
+      lines:
+      - 2222
+    - title: Follow-up
+      lines:
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
   - password: 3333
     led: {fileID: 552777774}
-    radioMonologue:
-    - 3333
+    correctResponse: Fourth password accepted. One remains.
+    radioMonologues:
+    - title: Briefing
+      lines:
+      - 3333
+    - title: Follow-up
+      lines:
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
   - password: 4444
     led: {fileID: 1460784143}
-    radioMonologue:
-    - 4444
+    correctResponse: Final password accepted.
+    radioMonologues:
+    - title: Briefing
+      lines:
+      - 4444
+    - title: Follow-up
+      lines:
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
   ignorePasswordCase: 1
-  correctPasswordResponse: Correct Password
+  commands:
+  - phrase: HELP
+    response: Tune to your contact's frequency for a briefing.
+    minSolvedPasswords: 0
+    maxSolvedPasswords: 4
+  - phrase: STATUS
+    response: The first password is confirmed. Four passwords remain.
+    minSolvedPasswords: 1
+    maxSolvedPasswords: 1
+  ignoreCommandCase: 1
   wrongPasswordResponse: Wrong Password
   finalText: All passwords are correct!
   signalSource: {fileID: 1444339482}
@@ -12074,6 +12118,25 @@ MonoBehaviour:
   radio: {fileID: 1410141038}
   gameManager: {fileID: 1444339478}
   contactFrequency: 14085
+  idleFrequency: 13600
+  repeatContactMonologues: 1
+  secretStations:
+  - frequency: 14725
+    speakerName: Unknown signal
+    monologues:
+    - title: Unlisted channel
+      lines:
+      - This frequency is not on the official list.
+      - You found a hidden transmission.
+    repeatAfterLast: 0
+  - frequency: 27182
+    speakerName: Unlisted station
+    monologues:
+    - title: Hidden transmission
+      lines:
+      - Another signal, hidden between the stations.
+      - Keep this channel to yourself.
+    repeatAfterLast: 0
   panel: {fileID: 639901549}
   lineText: {fileID: 1509935090}
   speakerText: {fileID: 911714593}

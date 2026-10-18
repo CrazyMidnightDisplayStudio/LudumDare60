@@ -74,6 +74,12 @@ namespace LD60
             }
         }
 
+        public void TuneToFrequency(int frequency)
+        {
+            ResetTemporaryInput();
+            ApplyNewWaveNumber(frequency);
+        }
+
         private void IncreaseWave()
         {
             WaveNumber = WaveNumber >= MAX_WAVE_NUMBER

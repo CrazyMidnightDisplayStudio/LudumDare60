@@ -12,11 +12,30 @@ public class GameManager : MonoBehaviour, IInterpreter
     {
         [SerializeField] private string password;
         [SerializeField] private GameObject led;
-        [SerializeField, TextArea(2, 6)] private string[] radioMonologue = Array.Empty<string>();
+        [SerializeField, TextArea(2, 6)] private string correctResponse;
+        [SerializeField] private RadioConversation[] radioMonologues = Array.Empty<RadioConversation>();
 
         public string Password => password;
         public GameObject Led => led;
-        public IReadOnlyList<string> RadioMonologue => radioMonologue;
+        public string CorrectResponse => correctResponse;
+        public IReadOnlyList<RadioConversation> RadioMonologues => radioMonologues ?? Array.Empty<RadioConversation>();
+    }
+
+    [Serializable]
+    public sealed class TerminalCommand
+    {
+        [SerializeField] private string phrase;
+        [SerializeField, TextArea(2, 6)] private string response;
+        [SerializeField, Range(0, 4)] private int minSolvedPasswords;
+        [SerializeField, Range(0, 4)] private int maxSolvedPasswords = 4;
+
+        public string Phrase => phrase;
+        public string Response => response;
+
+        public bool IsAvailable(int solvedPasswords)
+        {
+            return solvedPasswords >= minSolvedPasswords && solvedPasswords <= maxSolvedPasswords;
+        }
     }
 
     private const int PuzzleCount = 5;
@@ -25,10 +44,13 @@ public class GameManager : MonoBehaviour, IInterpreter
     [SerializeField] private PuzzleStage[] puzzles = { new(), new(), new(), new(), new() };
     [SerializeField] private bool ignorePasswordCase = true;
 
+    [Header("Terminal commands")]
+    [SerializeField] private TerminalCommand[] commands = Array.Empty<TerminalCommand>();
+    [SerializeField] private bool ignoreCommandCase = true;
+
     [Header("Terminal responses")]
-    [SerializeField] private string correctPasswordResponse = "Пароль принят.";
-    [SerializeField] private string wrongPasswordResponse = "Неверный пароль.";
-    [SerializeField, TextArea(2, 6)] private string finalText = "Все пароли приняты. Задание выполнено.";
+    [SerializeField] private string wrongPasswordResponse = "Incorrect password or unavailable command.";
+    [SerializeField, TextArea(2, 6)] private string finalText = "All passwords accepted. Mission complete.";
 
     [Header("Success signal")]
     [SerializeField] private AudioSource signalSource;
@@ -114,16 +136,20 @@ public class GameManager : MonoBehaviour, IInterpreter
     {
         var output = new List<string>();
 
-        if (!IsInterpreterOn || string.IsNullOrEmpty(input))
+        if (!IsInterpreterOn || string.IsNullOrWhiteSpace(input))
             return output;
 
+        input = input.Trim();
         PuzzleStage puzzle = puzzles[_solvedPuzzleCount];
         StringComparison comparison = ignorePasswordCase
             ? StringComparison.OrdinalIgnoreCase
             : StringComparison.Ordinal;
 
-        if (!string.Equals(input.Trim(), puzzle.Password.Trim(), comparison))
+        if (!string.Equals(input, puzzle.Password.Trim(), comparison))
         {
+            if (TryInterpretCommand(input, output))
+                return output;
+
             output.Add(wrongPasswordResponse);
             return output;
         }
@@ -139,7 +165,9 @@ public class GameManager : MonoBehaviour, IInterpreter
         }
 
         _solvedPuzzleCount++;
-        output.Add(correctPasswordResponse);
+        output.Add(string.IsNullOrWhiteSpace(puzzle.CorrectResponse)
+            ? $"Password {_solvedPuzzleCount} accepted."
+            : puzzle.CorrectResponse);
 
         if (IsGameCompleted)
         {
@@ -164,12 +192,37 @@ public class GameManager : MonoBehaviour, IInterpreter
         IsEnterPressed = false;
     }
 
-    public IReadOnlyList<string> GetCurrentRadioMonologue()
+    public IReadOnlyList<RadioConversation> GetCurrentRadioMonologues()
     {
         if (!IsPlaying)
-            return Array.Empty<string>();
+            return Array.Empty<RadioConversation>();
 
-        return puzzles[_solvedPuzzleCount].RadioMonologue ?? Array.Empty<string>();
+        return puzzles[_solvedPuzzleCount].RadioMonologues;
+    }
+
+    private bool TryInterpretCommand(string input, List<string> output)
+    {
+        if (commands == null)
+            return false;
+
+        StringComparison comparison = ignoreCommandCase
+            ? StringComparison.OrdinalIgnoreCase
+            : StringComparison.Ordinal;
+
+        foreach (TerminalCommand command in commands)
+        {
+            if (command == null || string.IsNullOrWhiteSpace(command.Phrase) ||
+                !command.IsAvailable(_solvedPuzzleCount) ||
+                !string.Equals(input, command.Phrase.Trim(), comparison))
+            {
+                continue;
+            }
+
+            output.Add(command.Response ?? string.Empty);
+            return true;
+        }
+
+        return false;
     }
 
     public void SetMonologueActive(bool active)
