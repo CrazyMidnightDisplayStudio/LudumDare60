@@ -6,6 +6,10 @@ namespace LD60
     public class Radio : MonoBehaviour
     {
         public static event Action<string> WaveChanged;
+        public event Action<int> FrequencyChanged;
+
+        public int Frequency => WaveNumber;
+        public bool IsEnteringFrequency => TemporaryDigitsCount > 0;
 
         private const float InputTimeout = 3.0f;
 
@@ -31,6 +35,7 @@ namespace LD60
         private void Start()
         {
             NotifyWaveChanged();
+            NotifyFrequencyChanged();
         }
 
         private void Update()
@@ -46,6 +51,7 @@ namespace LD60
             {
                 ResetTemporaryInput();
                 NotifyWaveChanged();
+                NotifyFrequencyChanged();
             }
         }
 
@@ -75,6 +81,7 @@ namespace LD60
                 : WaveNumber + 1;
 
             NotifyWaveChanged();
+            NotifyFrequencyChanged();
         }
 
         private void DecreaseWave()
@@ -84,6 +91,7 @@ namespace LD60
                 : WaveNumber - 1;
 
             NotifyWaveChanged();
+            NotifyFrequencyChanged();
         }
 
         private void InputNumber(int value)
@@ -108,6 +116,7 @@ namespace LD60
         {
             WaveNumber = Mathf.Clamp(newWaveNumber, MIN_WAVE_NUMBER, MAX_WAVE_NUMBER);
             NotifyWaveChanged();
+            NotifyFrequencyChanged();
         }
 
         private void ResetTemporaryInput()
@@ -120,6 +129,11 @@ namespace LD60
         private void NotifyWaveChanged()
         {
             WaveChanged?.Invoke(GetDisplayValue());
+        }
+
+        private void NotifyFrequencyChanged()
+        {
+            FrequencyChanged?.Invoke(WaveNumber);
         }
 
         public string GetDisplayValue()
