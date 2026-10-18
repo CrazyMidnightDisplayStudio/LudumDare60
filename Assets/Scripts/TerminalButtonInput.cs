@@ -79,7 +79,7 @@ public class TerminalButtonInput : MonoBehaviour
 
     public void Append(string symbol)
     {
-        if (inputText == null)
+        if (inputText == null || _interpreter == null || !_interpreter.IsInterpreterOn)
             return;
 
         inputText.text += symbol;
@@ -87,7 +87,8 @@ public class TerminalButtonInput : MonoBehaviour
 
     public void Backspace()
     {
-        if (inputText == null || inputText.text.Length == 0)
+        if (inputText == null || inputText.text.Length == 0 ||
+            _interpreter == null || !_interpreter.IsInterpreterOn)
             return;
 
         inputText.text = inputText.text.Remove(inputText.text.Length - 1);

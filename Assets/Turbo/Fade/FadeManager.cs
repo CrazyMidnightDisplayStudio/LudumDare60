@@ -31,7 +31,7 @@ namespace Turbo.Fade
 
         public void FadeOut()
         {
-            if (fadeImage.gameObject.activeSelf || IsFading)
+            if (IsFading)
                 return;
 
             _fadeRoutine = StartCoroutine(FadeOutRoutine());
@@ -69,14 +69,15 @@ namespace Turbo.Fade
         private IEnumerator FadeOutRoutine()
         {
             IsFading = true;
-            fadeImage.gameObject.SetActive(true);
 
             float elapsed = 0f;
-            float startAlpha = fadeImage.color.a;
+            float startAlpha = fadeImage.gameObject.activeSelf ? fadeImage.color.a : 0f;
+            SetAlpha(startAlpha);
+            fadeImage.gameObject.SetActive(true);
 
             while (elapsed < duration)
             {
-                elapsed += Time.deltaTime;
+                elapsed += Time.unscaledDeltaTime;
                 float t = Mathf.Clamp01(elapsed / duration);
                 SetAlpha(Mathf.Lerp(startAlpha, 1f, t));
                 yield return null;
