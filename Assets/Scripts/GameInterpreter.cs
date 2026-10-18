@@ -10,7 +10,18 @@ public class GameInterpreter : MonoBehaviour, IInterpreter
     {
         var output = new List<string>();
 
-        // Обработка команд текущей игры.
+        if (input == "HELP")
+        {
+            output.Add("no help");
+            return output;
+        }
+
+        if (input == "HELLO")
+        {
+            output.Add("ola!");
+            return output;
+        }
+        
 
         return output;
     }
