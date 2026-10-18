@@ -785,7 +785,7 @@ TextureImporter:
         width: 53
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -802,12 +802,12 @@ TextureImporter:
       name: Radio_29
       rect:
         serializedVersion: 2
-        x: 383
-        y: 167
+        x: 319
+        y: 135
         width: 53
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -816,6 +816,28 @@ TextureImporter:
       bones: []
       spriteID: ca60a2c01fa92644bb7b8f7db2a9ea53
       internalID: -1465226879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Radio_30
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 47
+        width: 211
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb38ee67f5c391d4698ed1415e33e586
+      internalID: 1924231496
       vertices: []
       indices: 
       edges: []
@@ -858,6 +880,7 @@ TextureImporter:
       Radio_28: -742097331
       Radio_29: -1465226879
       Radio_3: -9042603785333544692
+      Radio_30: 1924231496
       Radio_4: -1469125244783911487
       Radio_5: 480087060962053936
       Radio_6: -3992812592632340277

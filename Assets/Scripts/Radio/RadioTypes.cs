@@ -3,7 +3,7 @@
     public static class Constexpr
     {
         public const char SKIP_SIMBOL = '-';
-        public const int DEFAULT_WAVE = 14085;
+        public const int DEFAULT_WAVE = 13600;
     }
     
     public enum ERadioButton
