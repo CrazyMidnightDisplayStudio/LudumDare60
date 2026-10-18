@@ -6306,10 +6306,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 920778496053584263, guid: f68605fc0c4e2254dbbc7ab9e75112fb, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 920778496053584263, guid: f68605fc0c4e2254dbbc7ab9e75112fb, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -6417,10 +6413,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 6930413227730341417, guid: f68605fc0c4e2254dbbc7ab9e75112fb, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8141786475132732402, guid: f68605fc0c4e2254dbbc7ab9e75112fb, type: 3}
       propertyPath: m_Name
       value: Terminal Canvas

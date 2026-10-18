@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 179427782193731783}
   - component: {fileID: 751366057796885584}
   - component: {fileID: 3671729068186424539}
+  - component: {fileID: 6690602994158594855}
   m_Layer: 0
   m_Name: Terminal Content
   m_TagString: Untagged
@@ -220,8 +221,8 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -283,6 +284,7 @@ MonoBehaviour:
   inputLine: {fileID: 4100683617626811310}
   scrollRect: {fileID: 4749942581099221887}
   terminalContent: {fileID: 7484848443501363631}
+  fontSize: 12
   interpreterObject: {fileID: 0}
 --- !u!223 &6917021736440062826
 Canvas:
@@ -428,10 +430,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5024943134265215645, guid: 75f3b92627ace2b499b85d878c44550c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024943134265215645, guid: 75f3b92627ace2b499b85d878c44550c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -565,3 +563,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8184133470718902452, guid: 75f3b92627ace2b499b85d878c44550c, type: 3}
   m_PrefabInstance: {fileID: 5294944541147474714}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6690602994158594855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7484848443501363631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_HorizontalFit: 0
+  m_VerticalFit: 2

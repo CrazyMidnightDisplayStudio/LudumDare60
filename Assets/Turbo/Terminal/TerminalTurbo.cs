@@ -15,14 +15,22 @@ public class TerminalTurbo : MonoBehaviour
     [SerializeField] private ScrollRect scrollRect;
     [SerializeField] private GameObject terminalContent;
 
-    private RectTransform _terminalContentRect;
-    
+    [Header("Appearance")]
+    [SerializeField, Min(1f)] private float fontSize = 12f;
+
+    [Header("Interpreter")]
     [SerializeField] private GameObject interpreterObject;
 
+    private RectTransform _terminalContentRect;
     private IInterpreter _interpreter;
+    private float _appliedFontSize;
+    private bool _scrollToBottomPending;
 
     private void Awake()
     {
+        _terminalContentRect = terminalContent.GetComponent<RectTransform>();
+        ApplyFontSize();
+
         _interpreter = FindInterpreter(interpreterObject);
 
         if (_interpreter == null)
@@ -34,6 +42,8 @@ public class TerminalTurbo : MonoBehaviour
 
     private void OnValidate()
     {
+        fontSize = Mathf.Max(1f, fontSize);
+
         if (interpreterObject == null)
         {
             return;
@@ -66,40 +76,68 @@ public class TerminalTurbo : MonoBehaviour
         return null;
     }
     
-    private void Start()
+    private void Update()
     {
-        _terminalContentRect = terminalContent.GetComponent<RectTransform>();
-    }
-
-    private void OnGUI()
-    {
-        if (!_interpreter.IsInterpreterOn || inputField.text == "" && _interpreter.IsEnterPressed)
+        if (!_interpreter.IsInterpreterOn)
         {
             _interpreter.ReleaseEnter();
             return;
         }
-       
-        if (inputField.text != "" && _interpreter.IsEnterPressed)
+
+        if (!_interpreter.IsEnterPressed)
+            return;
+
+        _interpreter.ReleaseEnter();
+
+        if (string.IsNullOrEmpty(inputField.text))
+            return;
+
+        var userInput = inputField.text;
+        ClearInputField();
+        AddStartLine(userInput);
+        AddInterpreterLines(_interpreter.Interpret(userInput));
+        inputLine.transform.SetAsLastSibling();
+        _scrollToBottomPending = true;
+    }
+
+    private void LateUpdate()
+    {
+        if (!Mathf.Approximately(_appliedFontSize, fontSize))
         {
-            _interpreter.ReleaseEnter();
-            var userInput = inputField.text;
-            ClearInputField();
-            AddStartLine(userInput);
-            var lineCount = AddInterpreterLines(_interpreter.Interpret(userInput));
-            ScrollToBottom(lineCount);
-            inputLine.transform.SetAsLastSibling();
+            ApplyFontSize();
+        }
+
+        if (!_scrollToBottomPending)
+            return;
+
+        _scrollToBottomPending = false;
+        Canvas.ForceUpdateCanvases();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_terminalContentRect);
+        scrollRect.StopMovement();
+        scrollRect.verticalNormalizedPosition = 0f;
+    }
+
+    public void ApplyFontSize()
+    {
+        ApplyFontSize(gameObject);
+        _appliedFontSize = fontSize;
+
+        if (terminalContent != null)
+        {
+            LayoutRebuilder.MarkLayoutForRebuild(
+                terminalContent.GetComponent<RectTransform>()
+            );
         }
     }
 
-    private void ScrollToBottom(int lineCount)
+    private void ApplyFontSize(GameObject target)
     {
-        if (lineCount > 4)
+        TMP_Text[] texts = target.GetComponentsInChildren<TMP_Text>(true);
+
+        foreach (TMP_Text text in texts)
         {
-            scrollRect.velocity = new Vector2(0, 1050f);
-        }
-        else
-        {
-            scrollRect.verticalNormalizedPosition = 0f;
+            text.enableAutoSizing = false;
+            text.fontSize = fontSize;
         }
     }
 
@@ -110,28 +148,24 @@ public class TerminalTurbo : MonoBehaviour
 
     private void AddStartLine(string userInputText)
     {
-       var terminalContentSize = _terminalContentRect.sizeDelta;
-       _terminalContentRect.sizeDelta = new Vector2(terminalContentSize.x, terminalContentSize.y + 35f);
-       
-       var newStartLine = Instantiate(startLine, terminalContent.transform);
-       
-       newStartLine.transform.SetSiblingIndex(terminalContent.transform.childCount - 1); // Set as last child
-       
-       newStartLine.transform.Find("Input Text (TMP)").GetComponent<TextMeshProUGUI>().text = userInputText;
+        var newStartLine = Instantiate(startLine, terminalContent.transform);
+        newStartLine.transform.SetAsLastSibling();
+        newStartLine.transform.Find("Input Text (TMP)").GetComponent<TextMeshProUGUI>().text = userInputText;
+        ApplyFontSize(newStartLine);
     }
 
-    private int AddInterpreterLines(List<string> outputLines)
+    private void AddInterpreterLines(List<string> outputLines)
     {
+        if (outputLines == null)
+            return;
+
         for (int i = 0; i < outputLines.Count; i++)
         {
             var responseLine = Instantiate(outputLine, terminalContent.transform);
             responseLine.transform.SetAsLastSibling();
-            var terminalContentSize = _terminalContentRect.sizeDelta;
-            _terminalContentRect.sizeDelta = new Vector2(terminalContentSize.x, terminalContentSize.y + 35f);
             responseLine.GetComponentInChildren<TextMeshProUGUI>().text = outputLines[i];
+            ApplyFontSize(responseLine);
         }
-        
-        return outputLines.Count;
     }
 
     public void ClearInputField()
