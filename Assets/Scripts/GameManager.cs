@@ -12,14 +12,12 @@ public class GameManager : MonoBehaviour, IInterpreter
     {
         [SerializeField] private string password;
         [SerializeField] private GameObject led;
-        [SerializeField, TextArea(2, 12)] private string terminalText;
         [SerializeField, TextArea(2, 6)] private string correctResponse;
         [SerializeField, TextArea(2, 6)] private string wrongResponse;
         [SerializeField] private RadioConversation[] radioMonologues = Array.Empty<RadioConversation>();
 
         public string Password => password;
         public GameObject Led => led;
-        public string TerminalText => terminalText;
         public string CorrectResponse => correctResponse;
         public string WrongResponse => wrongResponse;
         public IReadOnlyList<RadioConversation> RadioMonologues => radioMonologues ?? Array.Empty<RadioConversation>();
@@ -43,9 +41,6 @@ public class GameManager : MonoBehaviour, IInterpreter
     }
 
     private const int PuzzleCount = 5;
-
-    [Header("Terminal")]
-    [SerializeField] private TerminalTurbo terminal;
 
     [Header("Puzzles, in order")]
     [SerializeField] private PuzzleStage[] puzzles = { new(), new(), new(), new(), new() };
@@ -106,14 +101,6 @@ public class GameManager : MonoBehaviour, IInterpreter
             {
                 puzzle.Led.SetActive(false);
             }
-        }
-    }
-
-    private void Start()
-    {
-        if (terminal != null && IsPlaying && !string.IsNullOrWhiteSpace(puzzles[_solvedPuzzleCount].TerminalText))
-        {
-            terminal.WriteLines(new[] { puzzles[_solvedPuzzleCount].TerminalText });
         }
     }
 
@@ -191,10 +178,6 @@ public class GameManager : MonoBehaviour, IInterpreter
             _endingStartFrame = Time.frameCount;
             _endingInputReadyTime = Time.unscaledTime + finalInputDelay;
             output.Add(finalText);
-        }
-        else if (!string.IsNullOrWhiteSpace(puzzles[_solvedPuzzleCount].TerminalText))
-        {
-            output.Add(puzzles[_solvedPuzzleCount].TerminalText);
         }
 
         PuzzleSolved?.Invoke(_solvedPuzzleCount);

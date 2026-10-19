@@ -32,9 +32,6 @@ public class RadioMonologue : MonoBehaviour
     [SerializeField] private bool repeatContactMonologues = true;
     [SerializeField] private SecretStation[] secretStations = Array.Empty<SecretStation>();
 
-    [Header("Contact introduction")]
-    [SerializeField] private RadioConversation introduction = new();
-
     [Header("UI")]
     [SerializeField] private GameObject panel;
     [SerializeField] private TMP_Text lineText;
@@ -57,9 +54,6 @@ public class RadioMonologue : MonoBehaviour
     private float _visibleCharacters;
     private int _lastAdvanceFrame;
     private bool _isTyping;
-    private bool _isIntroduction;
-    private bool _introductionCompleted;
-    private bool _lastWasIntroduction;
 
     public bool IsPlaying { get; private set; }
 
@@ -177,11 +171,7 @@ public class RadioMonologue : MonoBehaviour
             return;
         }
 
-        if (_lastWasIntroduction)
-        {
-            _introductionCompleted = false;
-        }
-        else if (_lastStageIndex >= 0)
+        if (_lastStageIndex >= 0)
         {
             _nextContactMonologues[_lastStageIndex] = _lastConversationIndex;
         }
@@ -216,12 +206,6 @@ public class RadioMonologue : MonoBehaviour
 
         if (radio.Frequency == contactFrequency)
         {
-            if (!_introductionCompleted && introduction != null && introduction.Lines.Count > 0)
-            {
-                BeginConversation(introduction, 0, -1, null, true);
-                return;
-            }
-
             int stageIndex = gameManager.SolvedPuzzleCount;
             _nextContactMonologues.TryGetValue(stageIndex, out int next);
             IReadOnlyList<RadioConversation> conversations = gameManager.GetCurrentRadioMonologues();
@@ -259,8 +243,7 @@ public class RadioMonologue : MonoBehaviour
         }
     }
 
-    private void BeginConversation(RadioConversation conversation, int index, int stageIndex, SecretStation station,
-        bool isIntroduction = false)
+    private void BeginConversation(RadioConversation conversation, int index, int stageIndex, SecretStation station)
     {
         _lines = conversation.Lines;
         _conversationIndex = index;
@@ -270,8 +253,6 @@ public class RadioMonologue : MonoBehaviour
         _lastFrequency = _activeFrequency;
         _lastStageIndex = stageIndex;
         _lastConversationIndex = index;
-        _isIntroduction = isIntroduction;
-        _lastWasIntroduction = isIntroduction;
         _lineIndex = 0;
         IsPlaying = true;
         gameManager.SetMonologueActive(true);
@@ -287,11 +268,7 @@ public class RadioMonologue : MonoBehaviour
 
     private void CompleteConversation()
     {
-        if (_isIntroduction)
-        {
-            _introductionCompleted = true;
-        }
-        else if (_activeSecretStation == null)
+        if (_activeSecretStation == null)
         {
             _nextContactMonologues[_activeStageIndex] = _conversationIndex + 1;
         }
@@ -389,7 +366,6 @@ public class RadioMonologue : MonoBehaviour
 
         IsPlaying = false;
         _isTyping = false;
-        _isIntroduction = false;
         _lines = null;
         _activeSecretStation = null;
 

@@ -7050,17 +7050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &745842490 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6397968825787694087, guid: f68605fc0c4e2254dbbc7ab9e75112fb, type: 3}
-  m_PrefabInstance: {fileID: 745842488}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bd56cd213ddc3f4f925151d6eb32f60, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!1 &756107010
 GameObject:
   m_ObjectHideFlags: 0
@@ -11926,239 +11915,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27b23c8c473542bdba1fa9d464d5d254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  terminal: {fileID: 745842490}
   puzzles:
-  - password: "6775"
+  - password: 6775
     led: {fileID: 473086007}
-    terminalText: "ENTER PASSWORD."
-    correctResponse: "First password accepted. Four remain."
-    wrongResponse: |-
-      INCORRECT PASSWORD.
-      ENTER YOUR LOGIN PASSWORD.
+    correctResponse: First password accepted. Four remain.
+    wrongResponse: First password rejected. Try again.
     radioMonologues:
-    - title: "Hint 1"
+    - title: Briefing
       lines:
-      - "Viper, take a closer look at the things around you."
-      - "The answer might be right in front of you."
-    - title: "Hint 2"
+      - Look at phone
+    - title: Follow-up
       lines:
-      - "The sticker gives you letters, Viper."
-      - "Look at the telephone dial. Match each letter to its number."
-  - password: "1997"
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
+  - password: 1111
     led: {fileID: 1159357743}
-    terminalText: |-
-      PERSONAL FILE — DRAFT 04
-
-      I have tried to forget you FOUR THOUSAND times.
-      But every time I do, my feelings DOUBLE.
-      I DIVIDE my days into FOUR empty pieces.
-      And SUBTRACT THREE hours of sleep just thinking about you.
-    correctResponse: |-
-      COUNT VERIFIED.
-      SECOND SECURITY LOCK DISABLED.
-    wrongResponse: |-
-      INCORRECT RESULT.
-      PERSONAL SECURITY CHECK FAILED.
+    correctResponse: Second password accepted. Three remain.
+    wrongResponse: Second password rejected. Try again.
     radioMonologues:
-    - title: "Hint 1"
+    - title: Briefing
       lines:
-      - "Viper, this is quite a dramatic letter."
-      - "But don't you find some of those capitalized words a little strange?"
-    - title: "Hint 2"
+      - 1111
+    - title: Follow-up
       lines:
-      - "Read the capitalized words as a mathematical expression."
-      - "Start with four thousand. Double it, divide by four, then subtract three."
-  - password: "7B4K"
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
+  - password: 2222
     led: {fileID: 1893863357}
-    terminalText: |-
-      SECURITY RELAY SYSTEM
-      ACTIVATION LOG CORRUPTED
-
-      RELAY OWL  : K
-      RELAY WOLF : 4
-      RELAY FOX  : 7
-      RELAY MOTH : B
-
-      AUDIO BACKUP:
-      218.40 MHz
-
-      RECOVER ACTIVATION SEQUENCE.
-    correctResponse: |-
-      RELAY SEQUENCE RESTORED.
-      THIRD SECURITY LOCK DISABLED.
-    wrongResponse: |-
-      INVALID RELAY SEQUENCE.
-      ACTIVATION ORDER REJECTED.
+    correctResponse: Third password accepted. Two remain.
+    wrongResponse: Third password rejected. Try again.
     radioMonologues:
-    - title: "Hint 1"
+    - title: Briefing
       lines:
-      - "Viper, those relay names aren't random."
-      - "Listen to the recording carefully. It's describing the order in which they activated."
-    - title: "Hint 2"
+      - 2222
+    - title: Follow-up
       lines:
-      - "Owl goes last. Moth comes immediately before Wolf. And Fox must come before Moth."
-      - "Once you have the order, replace each relay name with its symbol from the terminal."
-  - password: "COMRADE"
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
+  - password: 3333
     led: {fileID: 552777774}
-    terminalText: |-
-      ENCRYPTION CONFIGURATION
-      PERSONAL SECURITY PATCH
-
-      I don't trust ordinary passwords.
-
-      That's why I moved every letter
-      THREE places FORWARD in the alphabet.
-
-      A becomes D.
-      B becomes E.
-      C becomes F.
-
-      ENCRYPTED KEY: FRPUDGH
-
-      DECRYPT TO CONTINUE.
-    correctResponse: |-
-      ENCRYPTION BYPASSED.
-      FOURTH SECURITY LOCK DISABLED.
-    wrongResponse: |-
-      DECRYPTION FAILED.
-      ENCRYPTED KEY NOT ACCEPTED.
+    correctResponse: Fourth password accepted. One remains.
+    wrongResponse: Fourth password rejected. Try again.
     radioMonologues:
-    - title: "Hint 1"
+    - title: Briefing
       lines:
-      - "A classic substitution cipher, Viper."
-      - "He changed the letters, but he was careless enough to leave the method behind."
-    - title: "Hint 2"
+      - 3333
+    - title: Follow-up
       lines:
-      - "The encrypted letters were shifted three places forward."
-      - "Move each letter in FRPUDGH three places backward to recover the password."
-  - password: "57KE"
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
+  - password: 4444
     led: {fileID: 1460784143}
-    terminalText: |-
-      FINAL AUTHENTICATION
-
-      FOUR KEYS ACCEPTED.
-      FOUR RECORDS PRESERVED.
-
-      TAKE THE LAST CHARACTER OF EACH KEY,
-      FROM FIRST TO FOURTH.
-
-      THE ARCHIVE NEVER FORGETS.
-
-      AVAILABLE COMMAND: DIR
-    correctResponse: |-
-      FINAL PASSWORD ACCEPTED.
-      ALL SECURITY LOCKS DISABLED.
-
-      OPENING CLASSIFIED FILE...
-    wrongResponse: |-
-      FINAL AUTHENTICATION FAILED.
-      ACCESS TO CLASSIFIED DATA DENIED.
+    correctResponse: Final password accepted.
+    wrongResponse: Final password rejected. Try again.
     radioMonologues:
-    - title: "Hint 1"
+    - title: Briefing
       lines:
-      - "You're almost there, Viper."
-      - "You've already entered four successful passwords. A computer like this must keep records of them somewhere."
-    - title: "Hint 2"
+      - 4444
+    - title: Follow-up
       lines:
-      - "Use DIR to find the access log. Then open it with READ ACCESS.LOG."
-      - "Take the last character of each accepted password, in the order you entered them."
+      - Take another look at the available clues.
+      - Tune back to this channel if you need to hear the briefing again.
   ignorePasswordCase: 1
   commands:
-  - phrase: "SUTO"
-    response: |-
-      HAHA.
-      DID YOU REALLY THINK IT WOULD BE THAT EASY?
+  - phrase: HELP
+    response: Tune to your contact's frequency for a briefing.
     minSolvedPasswords: 0
-    maxSolvedPasswords: 0
-  - phrase: "DIR"
-    response: |-
-      DIRECTORY LISTING
-
-      ACCESS.LOG       4 RECORDS
-      CONFESSION.TXT
-      RELAY.LOG
-      ENCRYPTION.CFG
-
-      TO OPEN A FILE:
-      READ <FILENAME>
-    minSolvedPasswords: 4
     maxSolvedPasswords: 4
-  - phrase: "READ ACCESS.LOG"
-    response: |-
-      ACCESS.LOG
-
-      01  ACCEPTED  6775
-      02  ACCEPTED  1997
-      03  ACCEPTED  7B4K
-      04  ACCEPTED  COMRADE
-
-      END OF FILE
-    minSolvedPasswords: 4
-    maxSolvedPasswords: 4
-  - phrase: "READ CONFESSION.TXT"
-    response: |-
-      PERSONAL FILE — DRAFT 04
-
-      I have tried to forget you FOUR THOUSAND times.
-      But every time I do, my feelings DOUBLE.
-      I DIVIDE my days into FOUR empty pieces.
-      And SUBTRACT THREE hours of sleep just thinking about you.
-    minSolvedPasswords: 4
-    maxSolvedPasswords: 4
-  - phrase: "READ RELAY.LOG"
-    response: |-
-      SECURITY RELAY SYSTEM
-      ACTIVATION LOG CORRUPTED
-
-      RELAY OWL  : K
-      RELAY WOLF : 4
-      RELAY FOX  : 7
-      RELAY MOTH : B
-
-      AUDIO BACKUP:
-      218.40 MHz
-
-      RECOVER ACTIVATION SEQUENCE.
-    minSolvedPasswords: 4
-    maxSolvedPasswords: 4
-  - phrase: "READ ENCRYPTION.CFG"
-    response: |-
-      ENCRYPTION CONFIGURATION
-      PERSONAL SECURITY PATCH
-
-      I don't trust ordinary passwords.
-
-      That's why I moved every letter
-      THREE places FORWARD in the alphabet.
-
-      A becomes D.
-      B becomes E.
-      C becomes F.
-
-      ENCRYPTED KEY: FRPUDGH
-
-      DECRYPT TO CONTINUE.
-    minSolvedPasswords: 4
-    maxSolvedPasswords: 4
+  - phrase: STATUS
+    response: The first password is confirmed. Four passwords remain.
+    minSolvedPasswords: 1
+    maxSolvedPasswords: 1
   ignoreCommandCase: 1
-  finalText: |-
-    Top secret data:
-
-    I LIKE YOU, VIPER.
-
-    You're so cute.
-    And so naive.
-
-    Did you really think
-    a top-secret computer
-    would be covered
-    in password clues?
-
-    Who do you think
-    left them there?
-
-    Yours,
-    Fantomantis
+  finalText: All passwords are correct!
   signalSource: {fileID: 1444339482}
   correctPasswordSound: {fileID: 8300000, guid: 11cacf0d18dfa8648a9c5f61aedb6405, type: 3}
   fadeManager: {fileID: 1444339483}
@@ -12348,27 +12177,22 @@ MonoBehaviour:
   idleFrequency: 13600
   repeatContactMonologues: 1
   secretStations:
-  - frequency: 21840
-    speakerName: "Unidentified recorded voice"
+  - frequency: 14725
+    speakerName: Unknown signal
     monologues:
-    - title: "Relay Test Recording"
+    - title: Unlisted channel
       lines:
-      - "Relay test recording. The activation log has been lost."
-      - "Four relays were tested. Here's what I remember."
-      - "I remember Owl was the last to activate."
-      - "Moth activated immediately before Wolf."
-      - "And Fox was already active when Moth came online."
-      - "That's all I've got. End of recording."
-    repeatAfterLast: 1
-  introduction:
-    title: "Introduction"
-    lines:
-    - "Viper, do you copy? Colonel Krivorotov here."
-    - "Congratulations! You've made it to Fantomantis's personal computer."
-    - "I could tell you exactly what to do next, but where's the fun in that?"
-    - "I'll leave the interesting part to you."
-    - "If you run into trouble, tune back to this frequency. I'll give you a hint."
-    - "Good luck, Viper. Krivorotov out."
+      - This frequency is not on the official list.
+      - You found a hidden transmission.
+    repeatAfterLast: 0
+  - frequency: 27182
+    speakerName: Unlisted station
+    monologues:
+    - title: Hidden transmission
+      lines:
+      - Another signal, hidden between the stations.
+      - Keep this channel to yourself.
+    repeatAfterLast: 0
   panel: {fileID: 639901549}
   lineText: {fileID: 1509935090}
   speakerText: {fileID: 911714593}

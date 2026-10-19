@@ -95,7 +95,9 @@ public class TerminalTurbo : MonoBehaviour
         var userInput = inputField.text;
         ClearInputField();
         AddStartLine(userInput);
-        WriteLines(_interpreter.Interpret(userInput));
+        AddInterpreterLines(_interpreter.Interpret(userInput));
+        inputLine.transform.SetAsLastSibling();
+        _scrollToBottomPending = true;
     }
 
     private void LateUpdate()
@@ -152,7 +154,7 @@ public class TerminalTurbo : MonoBehaviour
         ApplyFontSize(newStartLine);
     }
 
-    public void WriteLines(IReadOnlyList<string> outputLines)
+    private void AddInterpreterLines(List<string> outputLines)
     {
         if (outputLines == null)
             return;
@@ -164,9 +166,6 @@ public class TerminalTurbo : MonoBehaviour
             responseLine.GetComponentInChildren<TextMeshProUGUI>().text = outputLines[i];
             ApplyFontSize(responseLine);
         }
-
-        inputLine.transform.SetAsLastSibling();
-        _scrollToBottomPending = true;
     }
 
     public void ClearInputField()
