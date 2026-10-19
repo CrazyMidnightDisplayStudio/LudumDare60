@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7bd92b-f1bf-46c4-867f-e41152acbe7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare60/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare60/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Radio/RadioCanvasPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Radio/RadioCanvasPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Radio/RadioTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Radio/RadioTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/PC.aseprite" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/PC.aseprite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/PC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/PC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-    </list>
+    <list default="true" id="2f7bd92b-f1bf-46c4-867f-e41152acbe7d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +87,7 @@
       <updated>1792249637721</updated>
       <workItem from="1792249639625" duration="10000" />
       <workItem from="1792272415944" duration="3076000" />
-      <workItem from="1792318941599" duration="17788000" />
+      <workItem from="1792318941599" duration="18387000" />
     </task>
     <servers />
   </component>
