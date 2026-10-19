@@ -12440,7 +12440,7 @@ MonoBehaviour:
       - Keep this channel to yourself.
     repeatAfterLast: 0
   - frequency: 21840
-    speakerName: Unidentified recorded voice
+    speakerName: Recorded voice
     monologues:
     - title: Relay Test Recording
       lines:
