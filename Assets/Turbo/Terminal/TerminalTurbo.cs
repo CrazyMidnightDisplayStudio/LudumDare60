@@ -95,9 +95,7 @@ public class TerminalTurbo : MonoBehaviour
         var userInput = inputField.text;
         ClearInputField();
         AddStartLine(userInput);
-        AddInterpreterLines(_interpreter.Interpret(userInput));
-        inputLine.transform.SetAsLastSibling();
-        _scrollToBottomPending = true;
+        WriteLines(_interpreter.Interpret(userInput));
     }
 
     private void LateUpdate()
@@ -154,7 +152,14 @@ public class TerminalTurbo : MonoBehaviour
         ApplyFontSize(newStartLine);
     }
 
-    private void AddInterpreterLines(List<string> outputLines)
+    public void WriteLines(IReadOnlyList<string> outputLines)
+    {
+        AddInterpreterLines(outputLines);
+        inputLine.transform.SetAsLastSibling();
+        _scrollToBottomPending = true;
+    }
+
+    private void AddInterpreterLines(IReadOnlyList<string> outputLines)
     {
         if (outputLines == null)
             return;

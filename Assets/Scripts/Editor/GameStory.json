@@ -1,0 +1,186 @@
+{
+  "puzzles": [
+    {
+      "password": "6775",
+      "terminalText": "ENTER PASSWORD.",
+      "correctResponse": null,
+      "wrongResponse": "INCORRECT PASSWORD.\nENTER YOUR LOGIN PASSWORD.",
+      "radioMonologues": [
+        {
+          "title": "Hint 1",
+          "lines": [
+            "Viper, take a closer look at the things around you.",
+            "The answer might be right in front of you."
+          ]
+        },
+        {
+          "title": "Hint 2",
+          "lines": [
+            "The sticker gives you letters, Viper.",
+            "Look at the telephone dial. Match each letter to its number."
+          ]
+        }
+      ]
+    },
+    {
+      "password": "1997",
+      "terminalText": "PERSONAL FILE — DRAFT 04\n\nI have tried to forget you FOUR THOUSAND times.\nBut every time I do, my feelings DOUBLE.\nI DIVIDE my days into FOUR empty pieces.\nAnd SUBTRACT THREE hours of sleep just thinking about you.",
+      "correctResponse": "COUNT VERIFIED.\nSECOND SECURITY LOCK DISABLED.",
+      "wrongResponse": "INCORRECT RESULT.\nPERSONAL SECURITY CHECK FAILED.",
+      "radioMonologues": [
+        {
+          "title": "Hint 1",
+          "lines": [
+            "Viper, this is quite a dramatic letter.",
+            "But don't you find some of those capitalized words a little strange?"
+          ]
+        },
+        {
+          "title": "Hint 2",
+          "lines": [
+            "Read the capitalized words as a mathematical expression.",
+            "Start with four thousand. Double it, divide by four, then subtract three."
+          ]
+        }
+      ]
+    },
+    {
+      "password": "7B4K",
+      "terminalText": "SECURITY RELAY SYSTEM\nACTIVATION LOG CORRUPTED\n\nRELAY OWL  : K\nRELAY WOLF : 4\nRELAY FOX  : 7\nRELAY MOTH : B\n\nAUDIO BACKUP:\n218.40 MHz\n\nRECOVER ACTIVATION SEQUENCE.",
+      "correctResponse": "RELAY SEQUENCE RESTORED.\nTHIRD SECURITY LOCK DISABLED.",
+      "wrongResponse": "INVALID RELAY SEQUENCE.\nACTIVATION ORDER REJECTED.",
+      "radioMonologues": [
+        {
+          "title": "Hint 1",
+          "lines": [
+            "Viper, those relay names aren't random.",
+            "Listen to the recording carefully. It's describing the order in which they activated."
+          ]
+        },
+        {
+          "title": "Hint 2",
+          "lines": [
+            "Owl goes last. Moth comes immediately before Wolf. And Fox must come before Moth.",
+            "Once you have the order, replace each relay name with its symbol from the terminal."
+          ]
+        }
+      ]
+    },
+    {
+      "password": "COMRADE",
+      "terminalText": "ENCRYPTION CONFIGURATION\nPERSONAL SECURITY PATCH\n\nI don't trust ordinary passwords.\n\nThat's why I moved every letter\nTHREE places FORWARD in the alphabet.\n\nA becomes D.\nB becomes E.\nC becomes F.\n\nENCRYPTED KEY: FRPUDGH\n\nDECRYPT TO CONTINUE.",
+      "correctResponse": "ENCRYPTION BYPASSED.\nFOURTH SECURITY LOCK DISABLED.",
+      "wrongResponse": "DECRYPTION FAILED.\nENCRYPTED KEY NOT ACCEPTED.",
+      "radioMonologues": [
+        {
+          "title": "Hint 1",
+          "lines": [
+            "A classic substitution cipher, Viper.",
+            "He changed the letters, but he was careless enough to leave the method behind."
+          ]
+        },
+        {
+          "title": "Hint 2",
+          "lines": [
+            "The encrypted letters were shifted three places forward.",
+            "Move each letter in FRPUDGH three places backward to recover the password."
+          ]
+        }
+      ]
+    },
+    {
+      "password": "57KE",
+      "terminalText": "FINAL AUTHENTICATION\n\nFOUR KEYS ACCEPTED.\nFOUR RECORDS PRESERVED.\n\nTAKE THE LAST CHARACTER OF EACH KEY,\nFROM FIRST TO FOURTH.\n\nTHE ARCHIVE NEVER FORGETS.\n\nAVAILABLE COMMAND: DIR",
+      "correctResponse": "FINAL PASSWORD ACCEPTED.\nALL SECURITY LOCKS DISABLED.\n\nOPENING CLASSIFIED FILE...",
+      "wrongResponse": "FINAL AUTHENTICATION FAILED.\nACCESS TO CLASSIFIED DATA DENIED.",
+      "radioMonologues": [
+        {
+          "title": "Hint 1",
+          "lines": [
+            "You're almost there, Viper.",
+            "You've already entered four successful passwords. A computer like this must keep records of them somewhere."
+          ]
+        },
+        {
+          "title": "Hint 2",
+          "lines": [
+            "Use DIR to find the access log. Then open it with READ ACCESS.LOG.",
+            "Take the last character of each accepted password, in the order you entered them."
+          ]
+        }
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "phrase": "SUTO",
+      "response": "HAHA.\nDID YOU REALLY THINK IT WOULD BE THAT EASY?",
+      "minSolvedPasswords": 0,
+      "maxSolvedPasswords": 0
+    },
+    {
+      "phrase": "DIR",
+      "response": "DIRECTORY LISTING\n\nACCESS.LOG       4 RECORDS\nCONFESSION.TXT\nRELAY.LOG\nENCRYPTION.CFG\n\nTO OPEN A FILE:\nREAD <FILENAME>",
+      "minSolvedPasswords": 4,
+      "maxSolvedPasswords": 4
+    },
+    {
+      "phrase": "READ ACCESS.LOG",
+      "response": "ACCESS.LOG\n\n01  ACCEPTED  6775\n02  ACCEPTED  1997\n03  ACCEPTED  7B4K\n04  ACCEPTED  COMRADE\n\nEND OF FILE",
+      "minSolvedPasswords": 4,
+      "maxSolvedPasswords": 4
+    },
+    {
+      "phrase": "READ CONFESSION.TXT",
+      "response": "PERSONAL FILE — DRAFT 04\n\nI have tried to forget you FOUR THOUSAND times.\nBut every time I do, my feelings DOUBLE.\nI DIVIDE my days into FOUR empty pieces.\nAnd SUBTRACT THREE hours of sleep just thinking about you.",
+      "minSolvedPasswords": 4,
+      "maxSolvedPasswords": 4
+    },
+    {
+      "phrase": "READ RELAY.LOG",
+      "response": "SECURITY RELAY SYSTEM\nACTIVATION LOG CORRUPTED\n\nRELAY OWL  : K\nRELAY WOLF : 4\nRELAY FOX  : 7\nRELAY MOTH : B\n\nAUDIO BACKUP:\n218.40 MHz\n\nRECOVER ACTIVATION SEQUENCE.",
+      "minSolvedPasswords": 4,
+      "maxSolvedPasswords": 4
+    },
+    {
+      "phrase": "READ ENCRYPTION.CFG",
+      "response": "ENCRYPTION CONFIGURATION\nPERSONAL SECURITY PATCH\n\nI don't trust ordinary passwords.\n\nThat's why I moved every letter\nTHREE places FORWARD in the alphabet.\n\nA becomes D.\nB becomes E.\nC becomes F.\n\nENCRYPTED KEY: FRPUDGH\n\nDECRYPT TO CONTINUE.",
+      "minSolvedPasswords": 4,
+      "maxSolvedPasswords": 4
+    }
+  ],
+  "introduction": {
+    "title": "Introduction",
+    "lines": [
+      "Viper, do you copy? Colonel Krivorotov here.",
+      "Congratulations! You've made it to Fantomantis's personal computer.",
+      "I could tell you exactly what to do next, but where's the fun in that?",
+      "I'll leave the interesting part to you.",
+      "If you run into trouble, tune back to this frequency. I'll give you a hint.",
+      "Good luck, Viper. Krivorotov out."
+    ]
+  },
+  "finalText": "Top secret data:\n\nI LIKE YOU, VIPER.\n\nYou're so cute.\nAnd so naive.\n\nDid you really think\na top-secret computer\nwould be covered\nin password clues?\n\nWho do you think\nleft them there?\n\nYours,\nFantomantis",
+  "contactFrequency": 14085,
+  "speakerName": "Col. Krivorotov:",
+  "secretStations": [
+    {
+      "frequency": 21840,
+      "speakerName": "Unidentified recorded voice",
+      "monologues": [
+        {
+          "title": "Relay Test Recording",
+          "lines": [
+            "Relay test recording. The activation log has been lost.",
+            "Four relays were tested. Here's what I remember.",
+            "I remember Owl was the last to activate.",
+            "Moth activated immediately before Wolf.",
+            "And Fox was already active when Moth came online.",
+            "That's all I've got. End of recording."
+          ]
+        }
+      ],
+      "repeatAfterLast": true
+    }
+  ]
+}
