@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using Turbo.Fade;
 using UnityEngine;
@@ -65,7 +66,6 @@ public class GameManager : MonoBehaviour, IInterpreter
     [Header("Ending")]
     [SerializeField] private FadeManager fadeManager;
     [SerializeField, Min(0f)] private float finalInputDelay = 1f;
-    [SerializeField] private bool finishOnMouseMovement = true;
 
     private int _solvedPuzzleCount;
     private bool _configurationValid;
@@ -134,13 +134,18 @@ public class GameManager : MonoBehaviour, IInterpreter
             return;
         }
 
+        Keyboard keyboard = Keyboard.current;
+
+        if (keyboard == null)
+            return;
+
         if (!_endingInputArmed)
         {
-            _endingInputArmed = !HasHeldInput();
+            _endingInputArmed = !keyboard.anyKey.isPressed;
             return;
         }
 
-        if (HasNewInput())
+        if (keyboard.anyKey.wasPressedThisFrame)
         {
             FinishGame();
         }
@@ -304,7 +309,17 @@ public class GameManager : MonoBehaviour, IInterpreter
             return;
 
         _endingFadeStarted = true;
+        StartCoroutine(FinishGameRoutine());
+    }
+
+    private IEnumerator FinishGameRoutine()
+    {
         fadeManager.FadeOut();
+
+        while (fadeManager.IsFading)
+            yield return null;
+
+        Application.Quit();
     }
 
     private static bool HasHeldInput()
@@ -319,24 +334,6 @@ public class GameManager : MonoBehaviour, IInterpreter
         }
 
         return HasGamepadStickInput();
-    }
-
-    private bool HasNewInput()
-    {
-        foreach (InputDevice device in InputSystem.devices)
-        {
-            foreach (InputControl control in device.allControls)
-            {
-                if (control is ButtonControl button && button.wasPressedThisFrame)
-                    return true;
-            }
-        }
-
-        Mouse mouse = Mouse.current;
-
-        return (mouse != null && (mouse.scroll.ReadValue().sqrMagnitude > 0f ||
-                (finishOnMouseMovement && mouse.delta.ReadValue().sqrMagnitude > 0f))) ||
-               HasGamepadStickInput();
     }
 
     private static bool HasGamepadStickInput()
